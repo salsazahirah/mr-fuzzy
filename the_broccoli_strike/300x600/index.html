@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>300x600 Banner</title>
+    <script src="https://cdn.jsdelivr.net/gh/salsazahirah/assets@main/js/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/salsazahirah/assets@main/js/TextPlugin.min.js"></script>
+    
+    <style>
+        @font-face {
+            font-family: "Google Sans Flex";
+            src: url("https://cdn.jsdelivr.net/gh/salsazahirah/assets@main/fonts/google-sans-flex-latin-full-normal.woff2") format("woff2");
+            font-weight: 100 1000;
+            font-style: normal;
+        }
+        :root {
+            --google-blue: #4285F4;
+            --google-green: #0F9D58;
+            --google-red: #DB4437;
+            --google-yellow: #F4B400;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Google Sans Flex", sans-serif;
+            font-optical-sizing: auto;
+        }
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+        img {
+            width: 100%;
+        }
+        .ads-container {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 600px;
+            padding: 16px;
+            gap: 16px;
+            background: #121113;
+            background: linear-gradient(0deg, #15387A 0%, #121113 13%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.35);
+        }
+
+        .logo {
+            width: 150px;
+            margin-left: -20px;
+            margin-top: -15px;
+        }
+
+        .main-title {
+            font-variation-settings: "opsz" 144, "wdth" 37, "wght" 700, "GRAD" 37, "ROND" 0, "slnt" 0;
+            text-align: center;
+            font-size: 48px;
+            line-height: 1;
+        }
+
+        .main-title .line-blue {
+            color: #027FFD;
+            display: block;
+        }
+
+        .main-title .line-white {
+            color: #fff;
+            display: block;
+        }
+
+        .prompt-box {
+            width: 250px;
+            position: relative;
+        }
+
+        .prompt-text-container {
+            position: absolute;
+            top: 40px;
+            left: 14px;
+            width: 222px;
+            min-height: 40px;
+            font-size: 13px;
+            line-height: 1.35;
+        }
+
+        .text-blue-part {
+            color: #027FFD;
+        }
+
+        .text-white-part {
+            color: #fff;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 2px;
+            height: 14px;
+            background-color: #027FFD;
+            margin-left: 2px;
+            vertical-align: middle;
+            animation: blink 0.8s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .image-card {
+            width: 250px;
+            height: 250px;
+        }
+
+        .main-img.blurred {
+            filter: blur(2px) grayscale(100%);
+            transition: filter 0.1s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="ads-container">
+        <div class="logo">
+        <img src="assets/gemini-logo.png" alt="Google Logo" class="brand-logo">
+        </div>
+
+        <div class="main-title" id="mainTitle">
+        <span class="line-blue">MENU BIASA</span>
+        <span class="line-white">JADI ISTIMEWA</span>
+        </div>
+
+        <div class="prompt-box" id="promptBox">
+        <img src="assets/prompt-box.png" alt="">
+        <div class="prompt-text-container">
+            <span class="text-blue-part" id="typedBlue"></span><span class="text-white-part" id="typedWhite"></span><span class="cursor" id="cursor"></span>
+        </div>
+        </div>
+
+        <div class="image-card" id="imageCard">
+        <img src="assets/result-img.png" alt="Gemini Result Image" class="main-img blurred" id="mainImg">
+        </div>
+    </div>
+
+    <script>
+        gsap.registerPlugin(TextPlugin);
+    
+        const introTl = gsap.timeline({ defaults: { ease: "power3.out" } });
+        introTl
+            .from("#mainTitle", { opacity: 0, y: 20, duration: 1 })
+            .from("#promptBox", { opacity: 0, duration: 0.3})
+            .to("#typedBlue", { text: "Kasih ide menu mengolah brokoli ", duration: 1.2, ease: "none" })
+            .to("#typedWhite", { text: "yang disukai anak", duration: 2.2, ease: "none" })
+            .from("#imageCard", { opacity: 0, duration: 0.5 }, "+=0.2")
+            .to("#mainImg", { filter: "blur(0px) grayscale(0%)", duration: 0.3 });
+            ;
+            
+        function playLoopAnimation() {
+            const loopTl = gsap.timeline({
+                defaults: { ease: "power3.out" },
+                onComplete: () => {
+                    gsap.delayedCall(3, playLoopAnimation);
+                }
+            });
+                
+            loopTl
+                .set("#typedBlue", { text: "" })
+                .set("#typedWhite", { text: "" })
+                .set("#imageCard", { opacity: 0 })
+                .set("#mainImg", { filter: "blur(2px) grayscale(1)" })
+
+                .fromTo("#mainTitle", { opacity: 0, y: 20}, { opacity: 1, y: 0, duration: 1 })
+                .fromTo("#promptBox", { opacity: 0 }, { opacity: 1, duration: 0.3 })
+                .to("#typedBlue", { text: "Kasih ide menu mengolah brokoli ", duration: 1.2, ease: "none" })
+                .to("#typedWhite", { text: "yang disukai anak", duration: 2.2, ease: "none" })
+                .fromTo("#imageCard", { opacity: 0 }, { opacity: 1, duration: 0.5 }, "+=0.2")
+                .to("#mainImg", { filter: "blur(0px) grayscale(0)", duration: 0.3, ease: "power2.inOut" });
+        }
+
+        introTl.add(() => {
+            playLoopAnimation();
+        }, "+=3");
+    </script>
+</body>
+</html>
