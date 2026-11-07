@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ad.orientation" content="portrait,landscape">
     <meta name="google" content="notranslate" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <title>300x600 Banner</title>
-    <script src="https://cdn.jsdelivr.net/gh/salsazahirah/assets@main/js/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/salsazahirah/assets@main/js/TextPlugin.min.js"></script>
+
+    <!-- Required Google Ads clickTag definition -->
+    <script type="text/javascript">
+        var clickTag = "https://gemini.google/id/students/?hl=id";
+    </script>
+
+    <!-- Official Google Ads Exit API Script -->
+    <script src="https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js" type="text/javascript"></script>
+
+    <script src="js/gsap.min.js"></script>
+    <script src="js/TextPlugin.min.js"></script>
     
     <style>
         @font-face {
             font-family: "Google Sans Flex";
-            src: url("https://cdn.jsdelivr.net/gh/salsazahirah/assets@main/fonts/google-sans-flex-latin-full-normal.woff2") format("woff2");
+            src: url("assets/google-sans-flex.woff2") format("woff2");
             font-weight: 100 1000;
             font-style: normal;
         }
@@ -121,16 +131,19 @@
             height: 250px;
         }
 
-        .main-img.blurred {
-            filter: blur(2px) grayscale(100%);
-            transition: filter 0.1s ease;
+        .link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
 <body>
     <div class="ads-container">
         <div class="logo">
-        <img src="assets/gemini-logo.png" alt="Google Logo" class="brand-logo">
+        <img src="assets/gemini-logo.png" alt="Google Logo" class="brand-logo" loading="lazy">
         </div>
 
         <div class="main-title" id="mainTitle">
@@ -139,15 +152,17 @@
         </div>
 
         <div class="prompt-box" id="promptBox">
-        <img src="assets/prompt-box.png" alt="">
+        <img src="assets/prompt-box.png" alt="" loading="lazy">
         <div class="prompt-text-container">
             <span class="text-blue-part" id="typedBlue"></span><span class="text-white-part" id="typedWhite"></span><span class="cursor" id="cursor"></span>
         </div>
         </div>
 
         <div class="image-card" id="imageCard">
-        <img src="assets/result-img.png" alt="Gemini Result Image" class="main-img blurred" id="mainImg">
+        <img src="assets/result-img.png" alt="Gemini Result Image" class="main-img" id="mainImg" loading="lazy">
         </div>
+
+        <div class="link"></div>
     </div>
 
   <script>
@@ -157,11 +172,9 @@
         introTl
             .from("#mainTitle", { opacity: 0, y: 20, duration: 1 })
             .from("#promptBox", { opacity: 0, duration: 0.3})
-            .to("#typedBlue", { text: "Bikin meme kucing, ", duration: 1.2, ease: "none" })
-            .to("#typedWhite", { text: "tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”", duration: 2.2, ease: "none" })
-            .from("#imageCard", { opacity: 0, duration: 0.5 }, "+=0.2")
-            .to("#mainImg", { filter: "blur(0px) grayscale(0%)", duration: 0.3 });
-            ;
+            .to("#typedBlue", { text: "Bikin meme kucing, ", duration: 0.3, ease: "none" })
+            .to("#typedWhite", { text: "tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”", duration: 1, ease: "none" })
+            .fromTo("#imageCard", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.2");
             
         function playLoopAnimation() {
             const loopTl = gsap.timeline({
@@ -174,20 +187,22 @@
             loopTl
                 .set("#typedBlue", { text: "" })
                 .set("#typedWhite", { text: "" })
-                .set("#imageCard", { opacity: 0 })
-                .set("#mainImg", { filter: "blur(2px) grayscale(1)" })
+                .set("#imageCard", { autoAlpha: 0, y: 24 })
 
                 .fromTo("#mainTitle", { opacity: 0, y: 20}, { opacity: 1, y: 0, duration: 1 })
                 .fromTo("#promptBox", { opacity: 0 }, { opacity: 1, duration: 0.3 })
-                .to("#typedBlue", { text: "Bikin meme kucing, ", duration: 1.2, ease: "none" })
-                .to("#typedWhite", { text: "tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”", duration: 2.2, ease: "none" })
-                .fromTo("#imageCard", { opacity: 0 }, { opacity: 1, duration: 0.5 }, "+=0.2")
-                .to("#mainImg", { filter: "blur(0px) grayscale(0)", duration: 0.3, ease: "power2.inOut" });
+                .to("#typedBlue", { text: "Bikin meme kucing, ", duration: 0.3, ease: "none" })
+                .to("#typedWhite", { text: "tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”", duration: 1, ease: "none" })
+                .fromTo("#imageCard", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.2");
         }
 
         introTl.add(() => {
             playLoopAnimation();
         }, "+=3");
+
+        document.querySelector(".link").addEventListener("click", () => {
+            ExitApi.exit();
+        });
   </script>
 </body>
 </html>
