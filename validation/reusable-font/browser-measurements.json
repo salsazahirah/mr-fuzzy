@@ -1,0 +1,152 @@
+[
+  {
+    "font": "Test0",
+    "samples": [
+      {
+        "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "width": 431.828125,
+        "height": 32
+      },
+      {
+        "text": "abcdefghijklmnopqrstuvwxyz",
+        "width": 343.890625,
+        "height": 32
+      },
+      {
+        "text": "0123456789",
+        "width": 139.390625,
+        "height": 32
+      },
+      {
+        "text": " !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~",
+        "width": 364.40625,
+        "height": 32
+      },
+      {
+        "text": "– — ‘ ’ “ ” • … €",
+        "width": 160.84375,
+        "height": 32
+      },
+      {
+        "text": "MESKI DADAKAN TETAP BERKESAN",
+        "width": 366.84375,
+        "height": 45
+      },
+      {
+        "text": "Bikin kartu ulang tahun lucu buat bos, pakai kucing kacamata lagi cek sheet",
+        "width": 468.390625,
+        "height": 17
+      },
+      {
+        "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789",
+        "width": 733.265625,
+        "height": 32
+      },
+      {
+        "text": "Hamburgefonts 0123456789",
+        "width": 519.6875,
+        "height": 32
+      }
+    ]
+  },
+  {
+    "font": "Test1",
+    "samples": [
+      {
+        "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "width": 431.828125,
+        "height": 32
+      },
+      {
+        "text": "abcdefghijklmnopqrstuvwxyz",
+        "width": 343.890625,
+        "height": 32
+      },
+      {
+        "text": "0123456789",
+        "width": 139.390625,
+        "height": 32
+      },
+      {
+        "text": " !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~",
+        "width": 364.40625,
+        "height": 32
+      },
+      {
+        "text": "– — ‘ ’ “ ” • … €",
+        "width": 160.84375,
+        "height": 32
+      },
+      {
+        "text": "MESKI DADAKAN TETAP BERKESAN",
+        "width": 366.84375,
+        "height": 45
+      },
+      {
+        "text": "Bikin kartu ulang tahun lucu buat bos, pakai kucing kacamata lagi cek sheet",
+        "width": 468.390625,
+        "height": 17
+      },
+      {
+        "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789",
+        "width": 733.265625,
+        "height": 32
+      },
+      {
+        "text": "Hamburgefonts 0123456789",
+        "width": 519.6875,
+        "height": 32
+      }
+    ]
+  },
+  {
+    "font": "Test2",
+    "samples": [
+      {
+        "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "width": 431.828125,
+        "height": 32
+      },
+      {
+        "text": "abcdefghijklmnopqrstuvwxyz",
+        "width": 343.890625,
+        "height": 32
+      },
+      {
+        "text": "0123456789",
+        "width": 139.390625,
+        "height": 32
+      },
+      {
+        "text": " !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~",
+        "width": 364.40625,
+        "height": 32
+      },
+      {
+        "text": "– — ‘ ’ “ ” • … €",
+        "width": 160.84375,
+        "height": 32
+      },
+      {
+        "text": "MESKI DADAKAN TETAP BERKESAN",
+        "width": 366.84375,
+        "height": 45
+      },
+      {
+        "text": "Bikin kartu ulang tahun lucu buat bos, pakai kucing kacamata lagi cek sheet",
+        "width": 468.390625,
+        "height": 17
+      },
+      {
+        "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789",
+        "width": 733.265625,
+        "height": 32
+      },
+      {
+        "text": "Hamburgefonts 0123456789",
+        "width": 519.6875,
+        "height": 32
+      }
+    ]
+  }
+]

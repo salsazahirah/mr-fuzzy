@@ -1,0 +1,51 @@
+[
+    {
+        "path":  "index.html",
+        "bytes":  6172,
+        "compressedBytes":  1959,
+        "sha256":  "4889755706A770B396224115498201E3E6F8800A600AA7EB45707AD373C35E40",
+        "matchesSource":  true
+    },
+    {
+        "path":  "assets/gemini-logo.png",
+        "bytes":  4719,
+        "compressedBytes":  4528,
+        "sha256":  "6559865A4F0F8C3CA7A7F383C311973B8F2C1FD87FCDFBC5D551AF65E2E0A5F8",
+        "matchesSource":  true
+    },
+    {
+        "path":  "assets/google-sans-flex.woff2",
+        "bytes":  1401788,
+        "compressedBytes":  1402197,
+        "sha256":  "87218291DC2464E35C34D2A21F7127BDBA4D7BEEE22975D3552245D2293A6D38",
+        "matchesSource":  true
+    },
+    {
+        "path":  "assets/prompt-box.png",
+        "bytes":  3178,
+        "compressedBytes":  2956,
+        "sha256":  "145EDC76B3AAA13D64B4712A8F855EE954D3622BAA6B103AB66DF3E9CC7E5EBA",
+        "matchesSource":  true
+    },
+    {
+        "path":  "assets/result-img.png",
+        "bytes":  96766,
+        "compressedBytes":  96745,
+        "sha256":  "0982F3F811C53114F20F3D58070CE5EADB8DCCD105E801147972C0D6DF57269D",
+        "matchesSource":  true
+    },
+    {
+        "path":  "js/gsap.min.js",
+        "bytes":  73357,
+        "compressedBytes":  28480,
+        "sha256":  "3D1BEA374AB1B703CC5C4105358EEC63C4465EFDC573931DC116E34A0A190C1B",
+        "matchesSource":  true
+    },
+    {
+        "path":  "js/TextPlugin.min.js",
+        "bytes":  10570,
+        "compressedBytes":  3548,
+        "sha256":  "A24984FA1A33517B4C54C8B25B0BFD7AAF3DF9FA7EDBA661E3BD496A671A2429",
+        "matchesSource":  true
+    }
+]

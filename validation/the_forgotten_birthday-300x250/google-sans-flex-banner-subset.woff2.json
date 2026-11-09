@@ -1,0 +1,108 @@
+{
+  "method": "Banner copy subset; all variation axes and layout features retained",
+  "copy": [
+    "MESKI DADAKAN",
+    "TETAP BERKESAN",
+    "Bikin kartu ulang tahun lucu buat bos, ",
+    "pakai kucing kacamata lagi cek sheet"
+  ],
+  "inputBytes": 1401788,
+  "outputBytes": 263336,
+  "reductionPercent": 81.21,
+  "retainedCodePoints": [
+    "U+0020",
+    "U+002C",
+    "U+0041",
+    "U+0042",
+    "U+0044",
+    "U+0045",
+    "U+0049",
+    "U+004B",
+    "U+004D",
+    "U+004E",
+    "U+0050",
+    "U+0052",
+    "U+0053",
+    "U+0054",
+    "U+0061",
+    "U+0062",
+    "U+0063",
+    "U+0065",
+    "U+0067",
+    "U+0068",
+    "U+0069",
+    "U+006B",
+    "U+006C",
+    "U+006D",
+    "U+006E",
+    "U+006F",
+    "U+0070",
+    "U+0072",
+    "U+0073",
+    "U+0074",
+    "U+0075"
+  ],
+  "variationAxes": {
+    "opsz": {
+      "name": "Optical Size",
+      "min": 6,
+      "default": 18,
+      "max": 144
+    },
+    "wdth": {
+      "name": "Width",
+      "min": 25,
+      "default": 100,
+      "max": 151
+    },
+    "wght": {
+      "name": "Weight",
+      "min": 1,
+      "default": 400,
+      "max": 1000
+    },
+    "GRAD": {
+      "name": "Grade",
+      "min": 0,
+      "default": 0,
+      "max": 100
+    },
+    "ROND": {
+      "name": "Roundness",
+      "min": 0,
+      "default": 0,
+      "max": 100
+    },
+    "slnt": {
+      "name": "Slant",
+      "min": -10,
+      "default": 0,
+      "max": 0
+    }
+  },
+  "verified": {
+    "glyphCoverage": true,
+    "outlinesAndAdvances": true,
+    "bannerTextPositioning": true,
+    "settings": [
+      {},
+      {
+        "opsz": 144,
+        "wdth": 37,
+        "wght": 700,
+        "GRAD": 37,
+        "ROND": 0,
+        "slnt": 0
+      },
+      {
+        "opsz": 13,
+        "wght": 400
+      }
+    ]
+  },
+  "sha256": "f970b0f059dcf48400480ce467379b760c2705af0f05bcf706e7a932d0fc63bc",
+  "dependencies": {
+    "subset-font": "2.9.0",
+    "fontkit": "2.0.4"
+  }
+}

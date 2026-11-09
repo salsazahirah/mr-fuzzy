@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="ad.orientation" content="portrait,landscape">
+    <meta name="ad.size" content="width=300,height=600">
     <meta name="google" content="notranslate" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
@@ -28,12 +29,8 @@
             font-weight: 100 1000;
             font-style: normal;
         }
-        :root {
-            --google-blue: #4285F4;
-            --google-green: #0F9D58;
-            --google-red: #DB4437;
-            --google-yellow: #F4B400;
-        }
+        * { box-sizing: border-box; }
+
         body {
             margin: 0;
             padding: 0;
@@ -45,7 +42,9 @@
             text-decoration: inherit;
         }
         img {
+            display: block;
             width: 100%;
+            height: auto;
         }
         .ads-container {
             display: flex;
@@ -54,10 +53,7 @@
             height: 600px;
             padding: 16px;
             gap: 16px;
-            background: #121113;
             background: linear-gradient(0deg, #15387A 0%, #121113 13%);
-            display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
             position: relative;
@@ -67,14 +63,18 @@
 
         .logo {
             width: 150px;
-            margin-left: -20px;
-            margin-top: -15px;
+        }
+
+        .logo, .main-title, .prompt-box, .image-card {
+            flex-shrink: 0;
         }
 
         .main-title {
+            width: 266px;
+            white-space: nowrap;
             font-variation-settings: "opsz" 144, "wdth" 37, "wght" 700, "GRAD" 37, "ROND" 0, "slnt" 0;
             text-align: center;
-            font-size: 46px;
+            font-size: 40px;
             line-height: 1;
         }
 
@@ -133,33 +133,30 @@
 
         .link {
             position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            inset: 0;
         }
     </style>
 </head>
 <body>
     <div class="ads-container">
         <div class="logo">
-        <img src="assets/gemini-logo.png" alt="Google Logo" class="brand-logo" loading="lazy">
+            <img src="assets/gemini-logo.png" alt="Google Logo" class="brand-logo" loading="lazy">
         </div>
 
         <div class="main-title" id="mainTitle">
-        <span class="line-blue">EKSPLOR KREASI</span>
-        <span class="line-white">LANGSUNG EKSEKUSI</span>
+            <span class="line-blue">EKSPLOR KREASI</span>
+            <span class="line-white">LANGSUNG EKSEKUSI</span>
         </div>
 
         <div class="prompt-box" id="promptBox">
-        <img src="assets/prompt-box.png" alt="" loading="lazy">
-        <div class="prompt-text-container">
-            <span class="text-blue-part" id="typedBlue"></span><span class="text-white-part" id="typedWhite"></span><span class="cursor" id="cursor"></span>
-        </div>
+            <img src="assets/prompt-box.png" alt="" loading="lazy">
+            <div class="prompt-text-container">
+                <span class="text-blue-part" id="typedBlue"></span><span class="text-white-part" id="typedWhite"></span><span class="cursor" id="cursor"></span>
+            </div>
         </div>
 
         <div class="image-card" id="imageCard">
-        <img src="assets/result-img.png" alt="Gemini Result Image" class="main-img" id="mainImg" loading="lazy">
+            <img src="assets/result-img.png" alt="Gemini Result Image" class="main-img" id="mainImg" loading="lazy">
         </div>
 
         <div class="link"></div>

@@ -1,0 +1,9 @@
+{
+  "index.html": "c85bcd3b31570d05d3d596de44dd444406613006c1d5c59f621ef04c3e6551df",
+  "assets\\gemini-logo.png": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8",
+  "assets\\google-sans-flex.woff2": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731",
+  "assets\\prompt-box.png": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba",
+  "assets\\result-img.png": "8f761187b9165c11727cb3c610faefe81bc043bf81bebf261ddbcf5ba96897da",
+  "js\\gsap.min.js": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b",
+  "js\\TextPlugin.min.js": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+}

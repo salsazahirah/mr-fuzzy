@@ -1,0 +1,241 @@
+{
+    "status":  true,
+    "response":  {
+                     "policy":  {
+                                    "name":  "AdWords",
+                                    "slug":  "adwords",
+                                    "input_type":  "upload",
+                                    "supports_preview":  true,
+                                    "default_preview_expand":  true,
+                                    "allow_preview_popups":  false
+                                },
+                     "batch_result_path":  null,
+                     "result":  {
+                                    "id":  5440463677554688,
+                                    "policy":  "adwords",
+                                    "creative_bundle_name":  "the_forgotten_birthday-300x250-original.zip",
+                                    "creative_bundle_filesize":  1541241.0,
+                                    "date_run":  "2026-11-09 01:41:27.967695",
+                                    "previews":  [
+                                                     {
+                                                         "name":  "index.html",
+                                                         "src":  "//h5validator.appspot.com/api/preview/5083636855078912/index.html",
+                                                         "height":  250,
+                                                         "width":  300
+                                                     }
+                                                 ],
+                                    "validation_case_results":  [
+                                                                    {
+                                                                        "name":  "4th party calls check",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Checks that all assets are relative to creative. Exceptions may be granted for specific URLs depending on policy.",
+                                                                        "error_template":  "relative_asset_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "Ad Dimensions",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that the creative bundle has valid dimensions.",
+                                                                        "error_template":  "invalid_file_dimensions_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "Asset preloading",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that assets are lazy loaded in the HTML file.",
+                                                                        "error_template":  "asset_preloading_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "Custom Exit Not Allowed check",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that the creative was not built with custom exits.",
+                                                                        "error_template":  "custom_exit_not_allowed_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "DoubleClick Studio check",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that the creative was not built using DoubleClick Studio.",
+                                                                        "error_template":  "doubleclick_studio_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "Exit API Script",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that ExitApi.exit() call is present in the bundle.",
+                                                                        "error_template":  "exit_api_script_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "File Bundle Size",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that the uploaded file is an acceptable size.",
+                                                                        "error_template":  "zip_file_size_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "File Paths/Structure",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures all file paths in the zip bundle are valid.",
+                                                                        "error_template":  "zip_file_paths_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "File Type/Count",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures all files contained in the zip bundle are supported.",
+                                                                        "error_template":  "zip_file_contents_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "Filename length",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that the filename is an acceptable length.",
+                                                                        "error_template":  "filename_length_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "GWD environment check",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures creatives built in Google Web Designer were created using the correct environment.",
+                                                                        "error_template":  "gwd_environment_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "HTML5 Not Allowed Features check",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Checks for unsupported HTML5 features.",
+                                                                        "error_template":  "advanced_html_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "Main Index HTML File",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that the creative bundle includes an index.html file.",
+                                                                        "error_template":  "index_file_missing_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "Missing asset check",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that all referenced assets are present in the bundle.",
+                                                                        "error_template":  "missing_asset_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "Multiple Click Exits",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that the creative does not include multiple exits.",
+                                                                        "error_template":  "multiple_exits_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "Primary Creative Asset",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that the creative bundle includes a primary asset.",
+                                                                        "error_template":  "missing_primary_asset_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "Secure URL check",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Checks that all non-relative assets are loaded over HTTPS.",
+                                                                        "error_template":  "secure_url_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "Swiffy-Built Not Allowed",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that the creative was not build using Swiffy.",
+                                                                        "error_template":  "swiffy_bundle_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    },
+                                                                    {
+                                                                        "name":  "Zip File Format",
+                                                                        "was_run":  true,
+                                                                        "status_int":  1,
+                                                                        "description":  "Ensures that the uploaded file is an acceptable .zip bundle.",
+                                                                        "error_template":  "zip_file_error.html",
+                                                                        "error_messages":  [
+
+                                                                                           ],
+                                                                        "status":  "PASS"
+                                                                    }
+                                                                ],
+                                    "landing_pages_id":  null
+                                }
+                 }
+}

@@ -1,0 +1,2450 @@
+{
+  "banners": [
+    {
+      "size": "120x20",
+      "timeline": {
+        "duration": 1,
+        "totalDuration": 25.5,
+        "repeat": 7
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 120,
+            "height": 20,
+            "right": 120,
+            "bottom": 20
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 5,
+                "y": 7.859375,
+                "width": 30,
+                "height": 4.265625,
+                "right": 35,
+                "bottom": 12.125
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 39,
+                "y": 6,
+                "width": 76,
+                "height": 8,
+                "right": 115,
+                "bottom": 14
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 118,
+            "height": 18,
+            "right": 119,
+            "bottom": 19
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        },
+        {
+          "time": 25.5,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 120,
+            "height": 20,
+            "right": 120,
+            "bottom": 20
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 5,
+                "y": 7.859375,
+                "width": 30,
+                "height": 4.265625,
+                "right": 35,
+                "bottom": 12.125
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 39,
+                "y": 6,
+                "width": 76,
+                "height": 8,
+                "right": 115,
+                "bottom": 14
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 118,
+            "height": 18,
+            "right": 119,
+            "bottom": 19
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 0,
+        "titleOpacity": "1",
+        "bodyWidth": 120,
+        "bodyHeight": 20,
+        "supported": true
+      }
+    },
+    {
+      "size": "160x600",
+      "timeline": {
+        "duration": 2.8,
+        "totalDuration": 24,
+        "repeat": 4
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 160,
+            "height": 600,
+            "right": 160,
+            "bottom": 600
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 35,
+                "y": 101,
+                "width": 90,
+                "height": 12.8125,
+                "right": 125,
+                "bottom": 113.8125
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 11,
+                "y": 139.8125,
+                "width": 138,
+                "height": 102,
+                "right": 149,
+                "bottom": 241.8125
+              }
+            },
+            {
+              "element": "prompt-box",
+              "position": "relative",
+              "rect": {
+                "x": 11,
+                "y": 270.8125,
+                "width": 138,
+                "height": 66.234375,
+                "right": 149,
+                "bottom": 337.046875
+              }
+            },
+            {
+              "element": "image-card",
+              "position": "static",
+              "rect": {
+                "x": 11,
+                "y": 375.046875,
+                "width": 138,
+                "height": 138,
+                "right": 149,
+                "bottom": 513.046875
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "prompt-text-container",
+              "allowed": true
+            },
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 158,
+            "height": 598,
+            "right": 159,
+            "bottom": 599
+          },
+          "overflow": [],
+          "title": "BIKIN\nWACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/prompt-box.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/result-img.png",
+              "loaded": true
+            }
+          ],
+          "prompt": "Bikin meme kucing, tulisannya: “Datang buat bola. Stay buat gorengan."
+        },
+        {
+          "time": 24,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 160,
+            "height": 600,
+            "right": 160,
+            "bottom": 600
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 35,
+                "y": 101,
+                "width": 90,
+                "height": 12.8125,
+                "right": 125,
+                "bottom": 113.8125
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 11,
+                "y": 139.8125,
+                "width": 138,
+                "height": 102,
+                "right": 149,
+                "bottom": 241.8125
+              }
+            },
+            {
+              "element": "prompt-box",
+              "position": "relative",
+              "rect": {
+                "x": 11,
+                "y": 270.8125,
+                "width": 138,
+                "height": 66.234375,
+                "right": 149,
+                "bottom": 337.046875
+              }
+            },
+            {
+              "element": "image-card",
+              "position": "static",
+              "rect": {
+                "x": 11,
+                "y": 351.046875,
+                "width": 138,
+                "height": 138,
+                "right": 149,
+                "bottom": 489.046875
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "prompt-text-container",
+              "allowed": true
+            },
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 158,
+            "height": 598,
+            "right": 159,
+            "bottom": 599
+          },
+          "overflow": [],
+          "title": "BIKIN\nWACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/prompt-box.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/result-img.png",
+              "loaded": true
+            }
+          ],
+          "prompt": "Bikin meme kucing, tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”"
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 0,
+        "titleOpacity": "1",
+        "bodyWidth": 160,
+        "bodyHeight": 600,
+        "supported": true
+      }
+    },
+    {
+      "size": "168x28",
+      "timeline": {
+        "duration": 1,
+        "totalDuration": 25.5,
+        "repeat": 7
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 168,
+            "height": 28,
+            "right": 168,
+            "bottom": 28
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 11,
+                "y": 11.15625,
+                "width": 40,
+                "height": 5.6875,
+                "right": 51,
+                "bottom": 16.84375
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 54,
+                "y": 8.5,
+                "width": 105,
+                "height": 11,
+                "right": 159,
+                "bottom": 19.5
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 166,
+            "height": 26,
+            "right": 167,
+            "bottom": 27
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        },
+        {
+          "time": 25.5,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 168,
+            "height": 28,
+            "right": 168,
+            "bottom": 28
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 11,
+                "y": 11.15625,
+                "width": 40,
+                "height": 5.6875,
+                "right": 51,
+                "bottom": 16.84375
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 54,
+                "y": 8.5,
+                "width": 105,
+                "height": 11,
+                "right": 159,
+                "bottom": 19.5
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 166,
+            "height": 26,
+            "right": 167,
+            "bottom": 27
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 0,
+        "titleOpacity": "1",
+        "bodyWidth": 168,
+        "bodyHeight": 28,
+        "supported": true
+      }
+    },
+    {
+      "size": "216x36",
+      "timeline": {
+        "duration": 1,
+        "totalDuration": 25.5,
+        "repeat": 7
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 36,
+            "right": 216,
+            "bottom": 36
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 13,
+                "y": 14.015625,
+                "width": 56,
+                "height": 7.96875,
+                "right": 69,
+                "bottom": 21.984375
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 69,
+                "y": 11,
+                "width": 140,
+                "height": 14,
+                "right": 209,
+                "bottom": 25
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 214,
+            "height": 34,
+            "right": 215,
+            "bottom": 35
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        },
+        {
+          "time": 25.5,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 36,
+            "right": 216,
+            "bottom": 36
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 13,
+                "y": 14.015625,
+                "width": 56,
+                "height": 7.96875,
+                "right": 69,
+                "bottom": 21.984375
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 69,
+                "y": 11,
+                "width": 140,
+                "height": 14,
+                "right": 209,
+                "bottom": 25
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 214,
+            "height": 34,
+            "right": 215,
+            "bottom": 35
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 0,
+        "titleOpacity": "1",
+        "bodyWidth": 216,
+        "bodyHeight": 36,
+        "supported": true
+      }
+    },
+    {
+      "size": "300x50",
+      "timeline": {
+        "duration": 1,
+        "totalDuration": 25.5,
+        "repeat": 7
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 300,
+            "height": 50,
+            "right": 300,
+            "bottom": 50
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 11,
+                "y": 19.296875,
+                "width": 80,
+                "height": 11.390625,
+                "right": 91,
+                "bottom": 30.6875
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 96,
+                "y": 15,
+                "width": 190,
+                "height": 20,
+                "right": 286,
+                "bottom": 35
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 298,
+            "height": 48,
+            "right": 299,
+            "bottom": 49
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        },
+        {
+          "time": 25.5,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 300,
+            "height": 50,
+            "right": 300,
+            "bottom": 50
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 11,
+                "y": 19.296875,
+                "width": 80,
+                "height": 11.390625,
+                "right": 91,
+                "bottom": 30.6875
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 96,
+                "y": 15,
+                "width": 190,
+                "height": 20,
+                "right": 286,
+                "bottom": 35
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 298,
+            "height": 48,
+            "right": 299,
+            "bottom": 49
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 0,
+        "titleOpacity": "1",
+        "bodyWidth": 300,
+        "bodyHeight": 50,
+        "supported": true
+      }
+    },
+    {
+      "size": "300x250",
+      "timeline": {
+        "duration": 3.4,
+        "totalDuration": 27,
+        "repeat": 4
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 300,
+            "height": 250,
+            "right": 300,
+            "bottom": 250
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 90,
+                "y": 16,
+                "width": 120,
+                "height": 17.09375,
+                "right": 210,
+                "bottom": 33.09375
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 15,
+                "y": 40.984375,
+                "width": 270,
+                "height": 68.375,
+                "right": 285,
+                "bottom": 109.359375
+              }
+            },
+            {
+              "element": "content-stage",
+              "position": "relative",
+              "rect": {
+                "x": 25,
+                "y": 118.953125,
+                "width": 250,
+                "height": 120,
+                "right": 275,
+                "bottom": 238.953125
+              }
+            },
+            {
+              "element": "prompt-box",
+              "position": "relative",
+              "rect": {
+                "x": 25,
+                "y": 118.953125,
+                "width": 250,
+                "height": 120,
+                "right": 275,
+                "bottom": 238.953125
+              }
+            },
+            {
+              "element": "image-card",
+              "position": "absolute",
+              "rect": {
+                "x": 90,
+                "y": 142.953125,
+                "width": 120,
+                "height": 120,
+                "right": 210,
+                "bottom": 262.953125
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "prompt-text-container",
+              "allowed": true
+            },
+            {
+              "element": "image-card",
+              "allowed": true
+            },
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 298,
+            "height": 248,
+            "right": 299,
+            "bottom": 249
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/prompt-box.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/result-img.png",
+              "loaded": true
+            }
+          ],
+          "prompt": "Bikin meme kucing, tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”"
+        },
+        {
+          "time": 27,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 300,
+            "height": 250,
+            "right": 300,
+            "bottom": 250
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 90,
+                "y": 16,
+                "width": 120,
+                "height": 17.09375,
+                "right": 210,
+                "bottom": 33.09375
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 15,
+                "y": 40.984375,
+                "width": 270,
+                "height": 68.375,
+                "right": 285,
+                "bottom": 109.359375
+              }
+            },
+            {
+              "element": "content-stage",
+              "position": "relative",
+              "rect": {
+                "x": 25,
+                "y": 118.953125,
+                "width": 250,
+                "height": 120,
+                "right": 275,
+                "bottom": 238.953125
+              }
+            },
+            {
+              "element": "prompt-box",
+              "position": "relative",
+              "rect": {
+                "x": 25,
+                "y": 118.953125,
+                "width": 250,
+                "height": 120,
+                "right": 275,
+                "bottom": 238.953125
+              }
+            },
+            {
+              "element": "image-card",
+              "position": "absolute",
+              "rect": {
+                "x": 90,
+                "y": 118.953125,
+                "width": 120,
+                "height": 120,
+                "right": 210,
+                "bottom": 238.953125
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "prompt-text-container",
+              "allowed": true
+            },
+            {
+              "element": "image-card",
+              "allowed": true
+            },
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 298,
+            "height": 248,
+            "right": 299,
+            "bottom": 249
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/prompt-box.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/result-img.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 0,
+        "titleOpacity": "1",
+        "bodyWidth": 300,
+        "bodyHeight": 250,
+        "supported": true
+      }
+    },
+    {
+      "size": "300x600",
+      "timeline": {
+        "duration": 6.1,
+        "totalDuration": 6.1,
+        "repeat": 0
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 300,
+            "height": 600,
+            "right": 300,
+            "bottom": 600
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 75,
+                "y": 32.3125,
+                "width": 150,
+                "height": 21.375,
+                "right": 225,
+                "bottom": 53.6875
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 43.75,
+                "y": 69.6875,
+                "width": 212.484375,
+                "height": 96,
+                "right": 256.234375,
+                "bottom": 165.6875
+              }
+            },
+            {
+              "element": "prompt-box",
+              "position": "relative",
+              "rect": {
+                "x": 25,
+                "y": 181.6875,
+                "width": 250,
+                "height": 120,
+                "right": 275,
+                "bottom": 301.6875
+              }
+            },
+            {
+              "element": "image-card",
+              "position": "static",
+              "rect": {
+                "x": 25,
+                "y": 341.6875,
+                "width": 250,
+                "height": 250,
+                "right": 275,
+                "bottom": 591.6875
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "prompt-text-container",
+              "allowed": true
+            },
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 298,
+            "height": 598,
+            "right": 299,
+            "bottom": 599
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/prompt-box.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/result-img.png",
+              "loaded": true
+            }
+          ],
+          "prompt": "Bikin meme kucing, tulisannya: “Datang buat bola. Stay "
+        },
+        {
+          "time": 3.2,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 300,
+            "height": 600,
+            "right": 300,
+            "bottom": 600
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 75,
+                "y": 32.3125,
+                "width": 150,
+                "height": 21.375,
+                "right": 225,
+                "bottom": 53.6875
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 43.75,
+                "y": 69.6875,
+                "width": 212.484375,
+                "height": 96,
+                "right": 256.234375,
+                "bottom": 165.6875
+              }
+            },
+            {
+              "element": "prompt-box",
+              "position": "relative",
+              "rect": {
+                "x": 25,
+                "y": 181.6875,
+                "width": 250,
+                "height": 120,
+                "right": 275,
+                "bottom": 301.6875
+              }
+            },
+            {
+              "element": "image-card",
+              "position": "static",
+              "rect": {
+                "x": 25,
+                "y": 317.6875,
+                "width": 250,
+                "height": 250,
+                "right": 275,
+                "bottom": 567.6875
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "prompt-text-container",
+              "allowed": true
+            },
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 298,
+            "height": 598,
+            "right": 299,
+            "bottom": 599
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/prompt-box.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/result-img.png",
+              "loaded": true
+            }
+          ],
+          "prompt": "Bikin meme kucing, tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”"
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 1,
+        "titleOpacity": "1",
+        "bodyWidth": 300,
+        "bodyHeight": 600,
+        "supported": false
+      }
+    },
+    {
+      "size": "300x1050",
+      "timeline": {
+        "duration": 2.8,
+        "totalDuration": 24,
+        "repeat": 4
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 300,
+            "height": 1050,
+            "right": 300,
+            "bottom": 1050
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 67.5,
+                "y": 171,
+                "width": 165,
+                "height": 23.5,
+                "right": 232.5,
+                "bottom": 194.5
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 25,
+                "y": 251,
+                "width": 250,
+                "height": 192,
+                "right": 275,
+                "bottom": 443
+              }
+            },
+            {
+              "element": "prompt-box",
+              "position": "relative",
+              "rect": {
+                "x": 25,
+                "y": 501,
+                "width": 250,
+                "height": 120,
+                "right": 275,
+                "bottom": 621
+              }
+            },
+            {
+              "element": "image-card",
+              "position": "static",
+              "rect": {
+                "x": 25,
+                "y": 665,
+                "width": 250,
+                "height": 250,
+                "right": 275,
+                "bottom": 915
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "prompt-text-container",
+              "allowed": true
+            },
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 298,
+            "height": 1048,
+            "right": 299,
+            "bottom": 1049
+          },
+          "overflow": [],
+          "title": "BIKIN\nWACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/prompt-box.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/result-img.png",
+              "loaded": true
+            }
+          ],
+          "prompt": "Bikin meme kucing, tulisannya: “Datang buat bola. Stay buat gorengan."
+        },
+        {
+          "time": 24,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 300,
+            "height": 1050,
+            "right": 300,
+            "bottom": 1050
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 67.5,
+                "y": 171,
+                "width": 165,
+                "height": 23.5,
+                "right": 232.5,
+                "bottom": 194.5
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 25,
+                "y": 251,
+                "width": 250,
+                "height": 192,
+                "right": 275,
+                "bottom": 443
+              }
+            },
+            {
+              "element": "prompt-box",
+              "position": "relative",
+              "rect": {
+                "x": 25,
+                "y": 501,
+                "width": 250,
+                "height": 120,
+                "right": 275,
+                "bottom": 621
+              }
+            },
+            {
+              "element": "image-card",
+              "position": "static",
+              "rect": {
+                "x": 25,
+                "y": 641,
+                "width": 250,
+                "height": 250,
+                "right": 275,
+                "bottom": 891
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "prompt-text-container",
+              "allowed": true
+            },
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 298,
+            "height": 1048,
+            "right": 299,
+            "bottom": 1049
+          },
+          "overflow": [],
+          "title": "BIKIN\nWACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/prompt-box.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/result-img.png",
+              "loaded": true
+            }
+          ],
+          "prompt": "Bikin meme kucing, tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”"
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 0,
+        "titleOpacity": "1",
+        "bodyWidth": 300,
+        "bodyHeight": 1050,
+        "supported": true
+      }
+    },
+    {
+      "size": "320x50",
+      "timeline": {
+        "duration": 1,
+        "totalDuration": 25.5,
+        "repeat": 7
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 50,
+            "right": 320,
+            "bottom": 50
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 17,
+                "y": 19.296875,
+                "width": 80,
+                "height": 11.390625,
+                "right": 97,
+                "bottom": 30.6875
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 106,
+                "y": 14,
+                "width": 200,
+                "height": 22,
+                "right": 306,
+                "bottom": 36
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 318,
+            "height": 48,
+            "right": 319,
+            "bottom": 49
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        },
+        {
+          "time": 25.5,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 50,
+            "right": 320,
+            "bottom": 50
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 17,
+                "y": 19.296875,
+                "width": 80,
+                "height": 11.390625,
+                "right": 97,
+                "bottom": 30.6875
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 106,
+                "y": 14,
+                "width": 200,
+                "height": 22,
+                "right": 306,
+                "bottom": 36
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 318,
+            "height": 48,
+            "right": 319,
+            "bottom": 49
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 0,
+        "titleOpacity": "1",
+        "bodyWidth": 320,
+        "bodyHeight": 50,
+        "supported": true
+      }
+    },
+    {
+      "size": "728x90",
+      "timeline": {
+        "duration": 1,
+        "totalDuration": 25.5,
+        "repeat": 7
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 728,
+            "height": 90,
+            "right": 728,
+            "bottom": 90
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 56,
+                "y": 32.890625,
+                "width": 170,
+                "height": 24.21875,
+                "right": 226,
+                "bottom": 57.109375
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 226,
+                "y": 22,
+                "width": 475,
+                "height": 46,
+                "right": 701,
+                "bottom": 68
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 726,
+            "height": 88,
+            "right": 727,
+            "bottom": 89
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        },
+        {
+          "time": 25.5,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 728,
+            "height": 90,
+            "right": 728,
+            "bottom": 90
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 56,
+                "y": 32.890625,
+                "width": 170,
+                "height": 24.21875,
+                "right": 226,
+                "bottom": 57.109375
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 226,
+                "y": 22,
+                "width": 475,
+                "height": 46,
+                "right": 701,
+                "bottom": 68
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 726,
+            "height": 88,
+            "right": 727,
+            "bottom": 89
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 0,
+        "titleOpacity": "1",
+        "bodyWidth": 728,
+        "bodyHeight": 90,
+        "supported": true
+      }
+    },
+    {
+      "size": "970x90",
+      "timeline": {
+        "duration": 1,
+        "totalDuration": 25.5,
+        "repeat": 7
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 970,
+            "height": 90,
+            "right": 970,
+            "bottom": 90
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 151,
+                "y": 32.890625,
+                "width": 170,
+                "height": 24.21875,
+                "right": 321,
+                "bottom": 57.109375
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 321,
+                "y": 21,
+                "width": 560,
+                "height": 48,
+                "right": 881,
+                "bottom": 69
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 968,
+            "height": 88,
+            "right": 969,
+            "bottom": 89
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        },
+        {
+          "time": 25.5,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 970,
+            "height": 90,
+            "right": 970,
+            "bottom": 90
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 151,
+                "y": 32.890625,
+                "width": 170,
+                "height": 24.21875,
+                "right": 321,
+                "bottom": 57.109375
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 321,
+                "y": 21,
+                "width": 560,
+                "height": 48,
+                "right": 881,
+                "bottom": 69
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 968,
+            "height": 88,
+            "right": 969,
+            "bottom": 89
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            }
+          ],
+          "prompt": null
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 0,
+        "titleOpacity": "1",
+        "bodyWidth": 970,
+        "bodyHeight": 90,
+        "supported": true
+      }
+    },
+    {
+      "size": "970x250",
+      "timeline": {
+        "duration": 2.8,
+        "totalDuration": 24,
+        "repeat": 4
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 970,
+            "height": 250,
+            "right": 970,
+            "bottom": 250
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "brand-block",
+              "position": "static",
+              "rect": {
+                "x": 40,
+                "y": 58.171875,
+                "width": 365,
+                "height": 144.640625,
+                "right": 405,
+                "bottom": 202.8125
+              }
+            },
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 132.5,
+                "y": 58.171875,
+                "width": 180,
+                "height": 25.640625,
+                "right": 312.5,
+                "bottom": 83.8125
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 40,
+                "y": 90.8125,
+                "width": 365,
+                "height": 112,
+                "right": 405,
+                "bottom": 202.8125
+              }
+            },
+            {
+              "element": "prompt-box",
+              "position": "relative",
+              "rect": {
+                "x": 406,
+                "y": 71,
+                "width": 260,
+                "height": 108,
+                "right": 666,
+                "bottom": 179
+              }
+            },
+            {
+              "element": "image-card",
+              "position": "static",
+              "rect": {
+                "x": 701,
+                "y": 54,
+                "width": 190,
+                "height": 190,
+                "right": 891,
+                "bottom": 244
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "prompt-text-container",
+              "allowed": true
+            },
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 968,
+            "height": 248,
+            "right": 969,
+            "bottom": 249
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/prompt-box.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/result-img.png",
+              "loaded": true
+            }
+          ],
+          "prompt": "Bikin meme kucing, tulisannya: “Datang buat bola. Stay buat gorengan."
+        },
+        {
+          "time": 24,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 970,
+            "height": 250,
+            "right": 970,
+            "bottom": 250
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "brand-block",
+              "position": "static",
+              "rect": {
+                "x": 40,
+                "y": 58.171875,
+                "width": 365,
+                "height": 144.640625,
+                "right": 405,
+                "bottom": 202.8125
+              }
+            },
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 132.5,
+                "y": 58.171875,
+                "width": 180,
+                "height": 25.640625,
+                "right": 312.5,
+                "bottom": 83.8125
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 40,
+                "y": 90.8125,
+                "width": 365,
+                "height": 112,
+                "right": 405,
+                "bottom": 202.8125
+              }
+            },
+            {
+              "element": "prompt-box",
+              "position": "relative",
+              "rect": {
+                "x": 406,
+                "y": 71,
+                "width": 260,
+                "height": 108,
+                "right": 666,
+                "bottom": 179
+              }
+            },
+            {
+              "element": "image-card",
+              "position": "static",
+              "rect": {
+                "x": 701,
+                "y": 30,
+                "width": 190,
+                "height": 190,
+                "right": 891,
+                "bottom": 220
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "prompt-text-container",
+              "allowed": true
+            },
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 968,
+            "height": 248,
+            "right": 969,
+            "bottom": 249
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/prompt-box.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/result-img.png",
+              "loaded": true
+            }
+          ],
+          "prompt": "Bikin meme kucing, tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”"
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 0,
+        "titleOpacity": "1",
+        "bodyWidth": 970,
+        "bodyHeight": 250,
+        "supported": true
+      }
+    },
+    {
+      "size": "1080x1920",
+      "timeline": {
+        "duration": 2.8,
+        "totalDuration": 24,
+        "repeat": 4
+      },
+      "phases": [
+        {
+          "time": 2.25,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "right": 1080,
+            "bottom": 1920
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 340,
+                "y": 151,
+                "width": 400,
+                "height": 57,
+                "right": 740,
+                "bottom": 208
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 60,
+                "y": 251,
+                "width": 960,
+                "height": 243.1875,
+                "right": 1020,
+                "bottom": 494.1875
+              }
+            },
+            {
+              "element": "prompt-box",
+              "position": "relative",
+              "rect": {
+                "x": 140,
+                "y": 560.984375,
+                "width": 800,
+                "height": 312,
+                "right": 940,
+                "bottom": 872.984375
+              }
+            },
+            {
+              "element": "image-card",
+              "position": "static",
+              "rect": {
+                "x": 155,
+                "y": 954.984375,
+                "width": 770,
+                "height": 770,
+                "right": 925,
+                "bottom": 1724.984375
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "prompt-text-container",
+              "allowed": true
+            },
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 1078,
+            "height": 1918,
+            "right": 1079,
+            "bottom": 1919
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/prompt-box.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/result-img.png",
+              "loaded": true
+            }
+          ],
+          "prompt": "Bikin meme kucing, tulisannya: “Datang buat bola. Stay buat gorengan."
+        },
+        {
+          "time": 24,
+          "ad": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "right": 1080,
+            "bottom": 1920
+          },
+          "flex": "flex",
+          "layout": [
+            {
+              "element": "logo",
+              "position": "static",
+              "rect": {
+                "x": 340,
+                "y": 151,
+                "width": 400,
+                "height": 57,
+                "right": 740,
+                "bottom": 208
+              }
+            },
+            {
+              "element": "main-title",
+              "position": "static",
+              "rect": {
+                "x": 60,
+                "y": 251,
+                "width": 960,
+                "height": 243.1875,
+                "right": 1020,
+                "bottom": 494.1875
+              }
+            },
+            {
+              "element": "prompt-box",
+              "position": "relative",
+              "rect": {
+                "x": 140,
+                "y": 560.984375,
+                "width": 800,
+                "height": 312,
+                "right": 940,
+                "bottom": 872.984375
+              }
+            },
+            {
+              "element": "image-card",
+              "position": "static",
+              "rect": {
+                "x": 155,
+                "y": 930.984375,
+                "width": 770,
+                "height": 770,
+                "right": 925,
+                "bottom": 1700.984375
+              }
+            }
+          ],
+          "absolute": [
+            {
+              "element": "prompt-text-container",
+              "allowed": true
+            },
+            {
+              "element": "link",
+              "allowed": true
+            }
+          ],
+          "link": {
+            "x": 1,
+            "y": 1,
+            "width": 1078,
+            "height": 1918,
+            "right": 1079,
+            "bottom": 1919
+          },
+          "overflow": [],
+          "title": "BIKIN WACANA\nTERLAKSANA",
+          "images": [
+            {
+              "src": "assets/gemini-logo.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/prompt-box.png",
+              "loaded": true
+            },
+            {
+              "src": "assets/result-img.png",
+              "loaded": true
+            }
+          ],
+          "prompt": "Bikin meme kucing, tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”"
+        }
+      ],
+      "exitClick": true,
+      "reducedMotion": {
+        "timelines": 0,
+        "titleOpacity": "1",
+        "bodyWidth": 1080,
+        "bodyHeight": 1920,
+        "supported": true
+      }
+    }
+  ],
+  "previews": [
+    {
+      "viewport": 390,
+      "width": 375,
+      "scrollWidth": 375,
+      "frames": [
+        {
+          "title": "The Reply Magnet 120x20",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 160x600",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 168x28",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 216x36",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 300x50",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 300x250",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 300x1050",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 320x50",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 728x90",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 970x90",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 970x250",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 1080x1920",
+          "position": "static",
+          "fits": true
+        }
+      ]
+    },
+    {
+      "viewport": 1280,
+      "width": 1265,
+      "scrollWidth": 1265,
+      "frames": [
+        {
+          "title": "The Reply Magnet 120x20",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 160x600",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 168x28",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 216x36",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 300x50",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 300x250",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 300x1050",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 320x50",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 728x90",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 970x90",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 970x250",
+          "position": "static",
+          "fits": true
+        },
+        {
+          "title": "The Reply Magnet 1080x1920",
+          "position": "static",
+          "fits": true
+        }
+      ]
+    }
+  ],
+  "exceptions": [],
+  "missingLocalAssets": []
+}

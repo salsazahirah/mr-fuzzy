@@ -1,0 +1,73 @@
+{
+  "name": "upright-square",
+  "bytes": 337572,
+  "pinnedAxes": {
+    "slnt": 0,
+    "ROND": 0
+  },
+  "variableAxes": {
+    "opsz": {
+      "name": "Optical Size",
+      "min": 6,
+      "default": 18,
+      "max": 144
+    },
+    "wdth": {
+      "name": "Width",
+      "min": 25,
+      "default": 100,
+      "max": 151
+    },
+    "wght": {
+      "name": "Weight",
+      "min": 1,
+      "default": 400,
+      "max": 1000
+    },
+    "GRAD": {
+      "name": "Grade",
+      "min": 0,
+      "default": 0,
+      "max": 100
+    }
+  },
+  "missingCharacters": [],
+  "originalAxes": {
+    "opsz": {
+      "name": "Optical Size",
+      "min": 6,
+      "default": 18,
+      "max": 144
+    },
+    "wdth": {
+      "name": "Width",
+      "min": 25,
+      "default": 100,
+      "max": 151
+    },
+    "wght": {
+      "name": "Weight",
+      "min": 1,
+      "default": 400,
+      "max": 1000
+    },
+    "GRAD": {
+      "name": "Grade",
+      "min": 0,
+      "default": 0,
+      "max": 100
+    },
+    "ROND": {
+      "name": "Roundness",
+      "min": 0,
+      "default": 0,
+      "max": 100
+    },
+    "slnt": {
+      "name": "Slant",
+      "min": -10,
+      "default": 0,
+      "max": 0
+    }
+  }
+}

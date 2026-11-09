@@ -1,0 +1,1049 @@
+[
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "1080x1920",
+    "reference": "the_reply_magnet/1080x1920/index.html",
+    "originalHtmlSha256": "5275136498bf70ee9da841847e173c0249db8411aa36103fd5cd4e64ce90f144",
+    "scriptsSha256": "071d18d2a74a4890d4d27e5729dc93814eb5bb151484b3908757fd479e3decff",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/1080x1920/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/1080x1920/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/1080x1920/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_broccoli_strike/1080x1920/assets/result-img.png",
+        "sha256": "95c128c41126c8f346a5797cb2e9cd77afdae5a2dcfaa805203301943e8c706c"
+      },
+      {
+        "path": "the_broccoli_strike/1080x1920/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_broccoli_strike/1080x1920/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "120x20",
+    "reference": "the_reply_magnet/120x20/index.html",
+    "originalHtmlSha256": "10753e73ee05dd2a7d906945ae7c10fd5bc21088b6375d1b3ed19304435be5e4",
+    "scriptsSha256": "e03f506a3422816fba56c22e58ac6901d04db8c49462ebb7f6783fac6370d0d2",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/120x20/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/120x20/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/120x20/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "160x600",
+    "reference": "the_reply_magnet/160x600/index.html",
+    "originalHtmlSha256": "0193ca1eed2da7ac4a641358936e3b359cc7c83668e7f65dc34827ab2535f3f7",
+    "scriptsSha256": "071d18d2a74a4890d4d27e5729dc93814eb5bb151484b3908757fd479e3decff",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/160x600/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/160x600/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/160x600/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_broccoli_strike/160x600/assets/result-img.png",
+        "sha256": "95c128c41126c8f346a5797cb2e9cd77afdae5a2dcfaa805203301943e8c706c"
+      },
+      {
+        "path": "the_broccoli_strike/160x600/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_broccoli_strike/160x600/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "168x28",
+    "reference": "the_reply_magnet/168x28/index.html",
+    "originalHtmlSha256": "872f3a35c0223906adfacbc6a8545d6511204f3b5614740cfca5423f6a1d2ea3",
+    "scriptsSha256": "e03f506a3422816fba56c22e58ac6901d04db8c49462ebb7f6783fac6370d0d2",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/168x28/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/168x28/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/168x28/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "216x36",
+    "reference": "the_reply_magnet/216x36/index.html",
+    "originalHtmlSha256": "d2c685343f209e61a01bee5cc963a35924b892e879d2d730cb484cb36f61e011",
+    "scriptsSha256": "e03f506a3422816fba56c22e58ac6901d04db8c49462ebb7f6783fac6370d0d2",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/216x36/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/216x36/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/216x36/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "300x1050",
+    "reference": "the_reply_magnet/300x1050/index.html",
+    "originalHtmlSha256": "1a7eed731026063b40c0572a32bafa898f45b1386abe43bb88a5f245a82f91b5",
+    "scriptsSha256": "071d18d2a74a4890d4d27e5729dc93814eb5bb151484b3908757fd479e3decff",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/300x1050/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/300x1050/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/300x1050/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_broccoli_strike/300x1050/assets/result-img.png",
+        "sha256": "95c128c41126c8f346a5797cb2e9cd77afdae5a2dcfaa805203301943e8c706c"
+      },
+      {
+        "path": "the_broccoli_strike/300x1050/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_broccoli_strike/300x1050/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "300x250",
+    "reference": "the_reply_magnet/300x250/index.html",
+    "originalHtmlSha256": "8e0f6856e0dec56a5b233fab268f86a867b2d08693f2f8fbaea9b943f1546b1e",
+    "scriptsSha256": "e2a05311e03a3536d284fea26935c041dec510484fc2bf701f7af6eec15e302f",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/300x250/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/300x250/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/300x250/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_broccoli_strike/300x250/assets/result-img.png",
+        "sha256": "95c128c41126c8f346a5797cb2e9cd77afdae5a2dcfaa805203301943e8c706c"
+      },
+      {
+        "path": "the_broccoli_strike/300x250/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_broccoli_strike/300x250/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "300x50",
+    "reference": "the_reply_magnet/300x50/index.html",
+    "originalHtmlSha256": "3260d0ac012978c7b7db066244157e7b4c9c222a6db8bcdb1aca9856731c8f85",
+    "scriptsSha256": "e03f506a3422816fba56c22e58ac6901d04db8c49462ebb7f6783fac6370d0d2",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/300x50/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/300x50/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/300x50/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "300x600",
+    "reference": "the_reply_magnet/300x600/index.html",
+    "originalHtmlSha256": "f6b004a4f9d45cff58c6aae9fa809f12da1d0fa1c428e3cc8365f305ac19baa2",
+    "scriptsSha256": "9300654dbcad02a9df66c61c4a7865feac03e23f9dd74b9b6a857becc60eebb9",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/300x600/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/300x600/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/300x600/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_broccoli_strike/300x600/assets/result-img.png",
+        "sha256": "95c128c41126c8f346a5797cb2e9cd77afdae5a2dcfaa805203301943e8c706c"
+      },
+      {
+        "path": "the_broccoli_strike/300x600/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_broccoli_strike/300x600/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "320x50",
+    "reference": "the_reply_magnet/320x50/index.html",
+    "originalHtmlSha256": "19410157f0226cd63f9ee4a9eb8bc44c8fec7ec7cc0b63b8eb9f60f51df42703",
+    "scriptsSha256": "e03f506a3422816fba56c22e58ac6901d04db8c49462ebb7f6783fac6370d0d2",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/320x50/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/320x50/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/320x50/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "728x90",
+    "reference": "the_reply_magnet/728x90/index.html",
+    "originalHtmlSha256": "9e2176be625712b8abb355316c12038f06b4978d1286beb641dcfcc3b0851916",
+    "scriptsSha256": "e03f506a3422816fba56c22e58ac6901d04db8c49462ebb7f6783fac6370d0d2",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/728x90/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/728x90/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/728x90/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "970x250",
+    "reference": "the_reply_magnet/970x250/index.html",
+    "originalHtmlSha256": "0466cd02de1081b65a33cf984e16554515a6263261d5d24f0d9906fe13cb3dbd",
+    "scriptsSha256": "071d18d2a74a4890d4d27e5729dc93814eb5bb151484b3908757fd479e3decff",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/970x250/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/970x250/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/970x250/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_broccoli_strike/970x250/assets/result-img.png",
+        "sha256": "95c128c41126c8f346a5797cb2e9cd77afdae5a2dcfaa805203301943e8c706c"
+      },
+      {
+        "path": "the_broccoli_strike/970x250/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_broccoli_strike/970x250/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_broccoli_strike",
+    "size": "970x90",
+    "reference": "the_reply_magnet/970x90/index.html",
+    "originalHtmlSha256": "968b76d4b3cc9bdce1fa043f4edeb0017394409c6f14688cfd5310bc5eb0186e",
+    "scriptsSha256": "80986cf6287be391dd4306dc73624885ebd0b052f19e550cd84032254f98425e",
+    "assets": [
+      {
+        "path": "the_broccoli_strike/970x90/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_broccoli_strike/970x90/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_broccoli_strike/970x90/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "1080x1920",
+    "reference": "the_reply_magnet/1080x1920/index.html",
+    "originalHtmlSha256": "124e157ca7d0ae4d226766171f8f7ae4b3e1683a5fb70665a0be685f4d17aea7",
+    "scriptsSha256": "4606ac7274108b5e1b8fa3413e0f24dc579e44d0bb2a19a35c0af077a416303b",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/1080x1920/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/1080x1920/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/1080x1920/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_forgotten_birthday/1080x1920/assets/result-img.png",
+        "sha256": "0982f3f811c53114f20f3d58070ce5eadb8dccd105e801147972c0d6df57269d"
+      },
+      {
+        "path": "the_forgotten_birthday/1080x1920/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_forgotten_birthday/1080x1920/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "120x20",
+    "reference": "the_reply_magnet/120x20/index.html",
+    "originalHtmlSha256": "ae8e5d6938fbab4bd0aed8c7c99d94f7e924ad385fb08d303a3ff15813d25088",
+    "scriptsSha256": "8df14d94241d161395dd12a46bb500697cef2635d591226116f347461cc9b493",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/120x20/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/120x20/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/120x20/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "160x600",
+    "reference": "the_reply_magnet/160x600/index.html",
+    "originalHtmlSha256": "21687eb33cc6d75f3a4ae5e2d04cca082f015d7e11ad91ca27e0a6c8773fe242",
+    "scriptsSha256": "4606ac7274108b5e1b8fa3413e0f24dc579e44d0bb2a19a35c0af077a416303b",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/160x600/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/160x600/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/160x600/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_forgotten_birthday/160x600/assets/result-img.png",
+        "sha256": "0982f3f811c53114f20f3d58070ce5eadb8dccd105e801147972c0d6df57269d"
+      },
+      {
+        "path": "the_forgotten_birthday/160x600/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_forgotten_birthday/160x600/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "168x28",
+    "reference": "the_reply_magnet/168x28/index.html",
+    "originalHtmlSha256": "28ed0d940b09498cba466a81845cc62b9172f6cb74293a50e21590abbdfd3051",
+    "scriptsSha256": "8df14d94241d161395dd12a46bb500697cef2635d591226116f347461cc9b493",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/168x28/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/168x28/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/168x28/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "216x36",
+    "reference": "the_reply_magnet/216x36/index.html",
+    "originalHtmlSha256": "8a8570e8a9564774ad49f4a4c9d3e494fce0acfb5f812a63868551b4129551af",
+    "scriptsSha256": "8df14d94241d161395dd12a46bb500697cef2635d591226116f347461cc9b493",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/216x36/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/216x36/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/216x36/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "300x1050",
+    "reference": "the_reply_magnet/300x1050/index.html",
+    "originalHtmlSha256": "ae86d1a83ba932b989c20236bcc7a0e9b9cfe0e7ed68e223a0385a626c56407a",
+    "scriptsSha256": "4606ac7274108b5e1b8fa3413e0f24dc579e44d0bb2a19a35c0af077a416303b",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/300x1050/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/300x1050/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/300x1050/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_forgotten_birthday/300x1050/assets/result-img.png",
+        "sha256": "0982f3f811c53114f20f3d58070ce5eadb8dccd105e801147972c0d6df57269d"
+      },
+      {
+        "path": "the_forgotten_birthday/300x1050/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_forgotten_birthday/300x1050/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "300x250",
+    "reference": "the_reply_magnet/300x250/index.html",
+    "originalHtmlSha256": "4889755706a770b396224115498201e3e6f8800a600aa7eb45707ad373c35e40",
+    "scriptsSha256": "c5a2154f476216975eb8fc72607b0848d5768d91ac0de00b7256f900a2a1986f",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/300x250/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/300x250/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/300x250/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_forgotten_birthday/300x250/assets/result-img.png",
+        "sha256": "0982f3f811c53114f20f3d58070ce5eadb8dccd105e801147972c0d6df57269d"
+      },
+      {
+        "path": "the_forgotten_birthday/300x250/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_forgotten_birthday/300x250/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "300x50",
+    "reference": "the_reply_magnet/300x50/index.html",
+    "originalHtmlSha256": "71207f456793a0260d08459239d3981c4526d42a1841c87fc526b701137380ac",
+    "scriptsSha256": "8df14d94241d161395dd12a46bb500697cef2635d591226116f347461cc9b493",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/300x50/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/300x50/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/300x50/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "300x600",
+    "reference": "the_reply_magnet/300x600/index.html",
+    "originalHtmlSha256": "1fab98cc39a3ee1188198d7645466dbb7b8413b5b0c060101dd9bb452d5cd119",
+    "scriptsSha256": "cbb8adfcd2defb70d4f302b024d352d0026c6bdd307333161c4c75b0c08db394",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/300x600/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/300x600/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/300x600/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_forgotten_birthday/300x600/assets/result-img.png",
+        "sha256": "0982f3f811c53114f20f3d58070ce5eadb8dccd105e801147972c0d6df57269d"
+      },
+      {
+        "path": "the_forgotten_birthday/300x600/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_forgotten_birthday/300x600/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "320x50",
+    "reference": "the_reply_magnet/320x50/index.html",
+    "originalHtmlSha256": "46169ec8dbe346b8b83a1e35e5d8694461041f1958c6004d43670cc792cb4154",
+    "scriptsSha256": "8df14d94241d161395dd12a46bb500697cef2635d591226116f347461cc9b493",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/320x50/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/320x50/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/320x50/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "728x90",
+    "reference": "the_reply_magnet/728x90/index.html",
+    "originalHtmlSha256": "a00141462b90424bdfbf20587bde29e85b7d0e8163ea4a91d7862cca25766cd6",
+    "scriptsSha256": "8df14d94241d161395dd12a46bb500697cef2635d591226116f347461cc9b493",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/728x90/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/728x90/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/728x90/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "970x250",
+    "reference": "the_reply_magnet/970x250/index.html",
+    "originalHtmlSha256": "62725790ebc4e28aaf919ed50dfedc2e13fa9fa469352c93a19f4a3a21d58271",
+    "scriptsSha256": "4606ac7274108b5e1b8fa3413e0f24dc579e44d0bb2a19a35c0af077a416303b",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/970x250/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/970x250/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/970x250/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_forgotten_birthday/970x250/assets/result-img.png",
+        "sha256": "0982f3f811c53114f20f3d58070ce5eadb8dccd105e801147972c0d6df57269d"
+      },
+      {
+        "path": "the_forgotten_birthday/970x250/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_forgotten_birthday/970x250/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_forgotten_birthday",
+    "size": "970x90",
+    "reference": "the_reply_magnet/970x90/index.html",
+    "originalHtmlSha256": "194b0d463ce59146d1500b246ea3905ef77272c4630141fc79a41e65aa2b24dd",
+    "scriptsSha256": "6c108dcba4562875fbb945e9ebdae0b1dd7c1294048deb7b39494c97c784a596",
+    "assets": [
+      {
+        "path": "the_forgotten_birthday/970x90/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_forgotten_birthday/970x90/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_forgotten_birthday/970x90/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "1080x1920",
+    "reference": "the_reply_magnet/1080x1920/index.html",
+    "originalHtmlSha256": "bc6f4348c32662cda46e202430ed2d78ad74c8da8bbd36b75626895df268a749",
+    "scriptsSha256": "7e534f7610a0a2448a353f2fa0c500a290a2222043bc6121d36fac10958d85ea",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/1080x1920/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/1080x1920/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/1080x1920/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_lunchbox_universe/1080x1920/assets/result-img.png",
+        "sha256": "449a45968cf343cccc364d92f44b55d88329664e238fe7e62c207f0161c9849d"
+      },
+      {
+        "path": "the_lunchbox_universe/1080x1920/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_lunchbox_universe/1080x1920/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "120x20",
+    "reference": "the_reply_magnet/120x20/index.html",
+    "originalHtmlSha256": "6da323d0434ef98a99d3cf101278c10a1048db2f1c00b5b3efbf18fee825d4b9",
+    "scriptsSha256": "e03f506a3422816fba56c22e58ac6901d04db8c49462ebb7f6783fac6370d0d2",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/120x20/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/120x20/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/120x20/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "160x600",
+    "reference": "the_reply_magnet/160x600/index.html",
+    "originalHtmlSha256": "c2c9a68b8772798f80f6ddfeef15fe46a488954d4ce35b4613f8511ca58475ea",
+    "scriptsSha256": "7e534f7610a0a2448a353f2fa0c500a290a2222043bc6121d36fac10958d85ea",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/160x600/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/160x600/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/160x600/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_lunchbox_universe/160x600/assets/result-img.png",
+        "sha256": "449a45968cf343cccc364d92f44b55d88329664e238fe7e62c207f0161c9849d"
+      },
+      {
+        "path": "the_lunchbox_universe/160x600/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_lunchbox_universe/160x600/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "168x28",
+    "reference": "the_reply_magnet/168x28/index.html",
+    "originalHtmlSha256": "74349fca8910661743fab30ad4f2fb3ee7bb2a8ca1fcb8e06744d61ea8116e26",
+    "scriptsSha256": "e03f506a3422816fba56c22e58ac6901d04db8c49462ebb7f6783fac6370d0d2",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/168x28/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/168x28/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/168x28/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "216x36",
+    "reference": "the_reply_magnet/216x36/index.html",
+    "originalHtmlSha256": "d9f4cec27197c9e25212f8fab7b28c974c1b7cbc614edc9f4a1e861fefb658b0",
+    "scriptsSha256": "e03f506a3422816fba56c22e58ac6901d04db8c49462ebb7f6783fac6370d0d2",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/216x36/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/216x36/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/216x36/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "300x1050",
+    "reference": "the_reply_magnet/300x1050/index.html",
+    "originalHtmlSha256": "e375d2481d64583dc9ae2f26c64397516647aaadfc80212bb13c6ecb9398bdec",
+    "scriptsSha256": "7e534f7610a0a2448a353f2fa0c500a290a2222043bc6121d36fac10958d85ea",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/300x1050/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/300x1050/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/300x1050/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_lunchbox_universe/300x1050/assets/result-img.png",
+        "sha256": "449a45968cf343cccc364d92f44b55d88329664e238fe7e62c207f0161c9849d"
+      },
+      {
+        "path": "the_lunchbox_universe/300x1050/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_lunchbox_universe/300x1050/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "300x250",
+    "reference": "the_reply_magnet/300x250/index.html",
+    "originalHtmlSha256": "c2da2d29b6b2355e3f2872fcda7f87e6133106b3d9bce3f18916490c46d2276d",
+    "scriptsSha256": "dfb7e43772f9761d3d81604e3c1ffce75cd1dafbcd80272b3965fc8109294215",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/300x250/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/300x250/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/300x250/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_lunchbox_universe/300x250/assets/result-img.png",
+        "sha256": "449a45968cf343cccc364d92f44b55d88329664e238fe7e62c207f0161c9849d"
+      },
+      {
+        "path": "the_lunchbox_universe/300x250/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_lunchbox_universe/300x250/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "300x50",
+    "reference": "the_reply_magnet/300x50/index.html",
+    "originalHtmlSha256": "c42dee9fd9527ae35df21a142ba6380d800b30d1171714eee1aee0b2f4b252b4",
+    "scriptsSha256": "e03f506a3422816fba56c22e58ac6901d04db8c49462ebb7f6783fac6370d0d2",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/300x50/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/300x50/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/300x50/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "300x600",
+    "reference": "the_reply_magnet/300x600/index.html",
+    "originalHtmlSha256": "cd8e5ab98c67b57fec5ec4e2d4777f147a51e70208aa0bfa378bed0e9803ce1a",
+    "scriptsSha256": "07289801546acf15e2a79bac06eb239a94ad7a66450672b43b02e584c9d4420f",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/300x600/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/300x600/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/300x600/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_lunchbox_universe/300x600/assets/result-img.png",
+        "sha256": "449a45968cf343cccc364d92f44b55d88329664e238fe7e62c207f0161c9849d"
+      },
+      {
+        "path": "the_lunchbox_universe/300x600/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_lunchbox_universe/300x600/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "320x50",
+    "reference": "the_reply_magnet/320x50/index.html",
+    "originalHtmlSha256": "af5ea9c6a7e3cb1af2b204e610b1b411b889c34d0885c18655448cb88b6b1002",
+    "scriptsSha256": "e03f506a3422816fba56c22e58ac6901d04db8c49462ebb7f6783fac6370d0d2",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/320x50/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/320x50/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/320x50/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "728x90",
+    "reference": "the_reply_magnet/728x90/index.html",
+    "originalHtmlSha256": "5cd71c8996ef7a889cc8c526ca0c1284afe8a8a1792061461048be1e6c646a8f",
+    "scriptsSha256": "e03f506a3422816fba56c22e58ac6901d04db8c49462ebb7f6783fac6370d0d2",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/728x90/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/728x90/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/728x90/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "970x250",
+    "reference": "the_reply_magnet/970x250/index.html",
+    "originalHtmlSha256": "5783efee952d1ac3655739974d19787dcbd9670353f7fb3c7fc9131774890759",
+    "scriptsSha256": "7e534f7610a0a2448a353f2fa0c500a290a2222043bc6121d36fac10958d85ea",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/970x250/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/970x250/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/970x250/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_lunchbox_universe/970x250/assets/result-img.png",
+        "sha256": "449a45968cf343cccc364d92f44b55d88329664e238fe7e62c207f0161c9849d"
+      },
+      {
+        "path": "the_lunchbox_universe/970x250/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_lunchbox_universe/970x250/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  },
+  {
+    "campaign": "the_lunchbox_universe",
+    "size": "970x90",
+    "reference": "the_reply_magnet/970x90/index.html",
+    "originalHtmlSha256": "cda6e142ad9b4cbd8c730c8aacecff60e595bac7fe50e45ac51e7d4ca6a1b74c",
+    "scriptsSha256": "80986cf6287be391dd4306dc73624885ebd0b052f19e550cd84032254f98425e",
+    "assets": [
+      {
+        "path": "the_lunchbox_universe/970x90/assets/gemini-logo.png",
+        "sha256": "6559865a4f0f8c3ca7a7f383c311973b8f2c1fd87fcdfbc5d551af65e2e0a5f8"
+      },
+      {
+        "path": "the_lunchbox_universe/970x90/assets/google-sans-flex.woff2",
+        "sha256": "bc70216cb50ca0b23d6b4d32292a9c96f66fa0a149f5cb3774fa7de3b5e59731"
+      },
+      {
+        "path": "the_lunchbox_universe/970x90/assets/prompt-box.png",
+        "sha256": "145edc76b3aaa13d64b4712a8f855ee954d3622baa6b103ab66df3e9cc7e5eba"
+      },
+      {
+        "path": "the_lunchbox_universe/970x90/assets/result-img.png",
+        "sha256": "449a45968cf343cccc364d92f44b55d88329664e238fe7e62c207f0161c9849d"
+      },
+      {
+        "path": "the_lunchbox_universe/970x90/js/gsap.min.js",
+        "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+      },
+      {
+        "path": "the_lunchbox_universe/970x90/js/TextPlugin.min.js",
+        "sha256": "a24984fa1a33517b4c54c8b25b0bfd7aaf3df9fa7edba661e3bd496a671a2429"
+      }
+    ]
+  }
+]

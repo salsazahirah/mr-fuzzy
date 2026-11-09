@@ -3,194 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="ad.size" content="width=970,height=90">
     <meta name="ad.orientation" content="landscape">
+    <meta name="ad.size" content="width=970,height=90">
     <meta name="google" content="notranslate">
-    <title>The Lunchbox Universe — 970x90 Banner</title>
+    <title>970x90 Banner - The Lunchbox Universe</title>
+
+    <!-- Required Google Ads clickTag definition -->
     <script>
         var clickTag = "https://gemini.google/id/students/?hl=id";
     </script>
+
+    <!-- Official Google Ads Exit API Script -->
     <script src="https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"></script>
     <script src="js/gsap.min.js"></script>
-    <script src="js/TextPlugin.min.js"></script>
+
     <style>
         @font-face {
             font-family: "Google Sans Flex";
             src: url("assets/google-sans-flex.woff2") format("woff2");
             font-weight: 100 1000;
             font-style: normal;
-            font-display: block;
         }
 
-        * {
-            box-sizing: border-box;
-        }
+        * { box-sizing: border-box; }
 
-        html,
         body {
-            width: 970px;
-            height: 90px;
             margin: 0;
-            overflow: hidden;
+            padding: 0;
             font-family: "Google Sans Flex", sans-serif;
             font-optical-sizing: auto;
         }
 
-        .ads-container {
-            position: relative;
+        img {
             display: block;
-            width: 970px;
-            height: 90px;
-            padding: 0 24px;
-            overflow: hidden;
-            border: 1px solid rgba(255, 255, 255, 0.25);
-            background: linear-gradient(0deg, #15387a 0%, #121113 45%);
-            color: #fff;
-            text-decoration: none;
-        }
-
-        .brand-logo {
-            position: absolute;
-            left: 82px;
-            top: 50%;
-            transform: translateY(-50%);
-            display: block;
-            width: 170px;
+            width: 100%;
             height: auto;
         }
 
-        .main-title {
-            position: absolute;
-            left: 306px;
-            top: 20px;
-            margin: 0;
-            font-family: "Google Sans Flex", sans-serif;
-            font-optical-sizing: auto;
-            font-variation-settings: "opsz" 144, "wdth" 37, "wght" 700, "GRAD" 37, "ROND" 0, "slnt" 0;
-            font-size: 48px;
-            font-weight: 700;
-            line-height: 1;
-            white-space: nowrap;
-        }
-
-        .line-blue {
-            color: #1c70f9;
-        }
-
-        .line-white {
-            color: #fff;
-        }
-
-        .content-stage {
-            position: absolute;
-            left: 306px;
-            top: 8px;
-            width: 580px;
-            height: 72px;
-        }
-
-        .prompt-box {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 480px;
-            height: 72px;
-            overflow: hidden;
-            border-radius: 12px;
-            visibility: hidden;
-        }
-
-        .prompt-background {
-            display: block;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
-        }
-
-        .prompt-text-container {
-            position: absolute;
-            inset: 0 18px;
+        .ads-container {
+            gap: 50px;
             display: flex;
             align-items: center;
-            font-size: 16px;
-            line-height: 1.35;
+            justify-content: center;
+            position: relative;
+            width: 970px;
+            height: 90px;
+            overflow: hidden;
+            background: linear-gradient(0deg, #15387A 0%, #121113 45%);
+            border: 1px solid rgba(255, 255, 255, 0.35);
         }
 
-        .text-blue-part { color: #027ffd; }
-        .text-white-part { color: #fff; }
-
-        .cursor {
-            display: inline-block;
-            width: 2px;
-            height: 16px;
-            margin-left: 2px;
-            vertical-align: middle;
-            background: #027ffd;
-            animation: blink 0.8s infinite;
+        .logo {
+            flex-shrink: 0;
+            width: 170px;
         }
 
-        @keyframes blink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0; }
+        .main-title {
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            white-space: nowrap;
+            font-variation-settings: "opsz" 144, "wdth" 37, "wght" 700, "GRAD" 37, "ROND" 0, "slnt" 0;
+            font-size: 48px;
+            line-height: 1;
         }
 
-        .image-card {
+        .line-blue { color: #027FFD; }
+        .line-white { color: #fff; }
+
+        .link {
             position: absolute;
-            right: 0;
-            top: 0;
-            width: 72px;
-            height: 72px;
-            visibility: hidden;
+            inset: 0;
+            z-index: 1;
+            cursor: pointer;
         }
 
-        .main-img {
-            display: block;
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-            .cursor { animation: none; }
-        }
-
-        .ads-container:focus-visible {
-            outline: 2px solid #fff;
+        .link:focus-visible {
+            outline: 2px solid #4285F4;
             outline-offset: -3px;
         }
     </style>
 </head>
 <body>
-    <a class="ads-container" href="https://gemini.google/id/students/?hl=id" target="_blank" rel="noopener noreferrer" aria-label="Google Gemini: Eksplor kreasi, langsung eksekusi">
-        <img src="assets/gemini-logo.png" alt="Google Gemini" class="brand-logo" width="170" height="24">
-        <h1 class="main-title" id="mainTitle"><span class="line-blue">EKSPLOR KREASI</span> <span class="line-white">LANGSUNG EKSEKUSI</span></h1>
-    </a>
+    <div class="ads-container" aria-label="Google Gemini: Eksplor kreasi, langsung eksekusi">
+        <div class="logo">
+            <img src="assets/gemini-logo.png" alt="Google Gemini" width="400" height="57">
+        </div>
+
+        <div class="main-title" id="mainTitle">
+            <span class="line-blue">EKSPLOR KREASI</span>
+            <span class="line-white">LANGSUNG EKSEKUSI</span>
+        </div>
+
+        <a class="link" href="https://gemini.google/id/students/?hl=id" target="_blank" rel="noopener noreferrer" aria-label="Coba Google Gemini"></a>
+    </div>
+
     <script>
-        if (window.gsap && window.TextPlugin && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-            gsap.registerPlugin(TextPlugin);
-
-            // Wait for the local font so the headline starts at its intended size.
-            document.fonts.ready.then(function () {
-                const introTl = gsap.timeline({
-                    defaults: { ease: "power3.out" },
-                    repeat: -1,
-                    repeatDelay: 3
-                });
-
-                introTl
-                    .set("#mainTitle", { autoAlpha: 0, y: 20 })
-                    .set("#typedBlue, #typedWhite", { text: "" })
-                    .to("#mainTitle", { autoAlpha: 1, y: 0, duration: 0.6})
+        if (window.gsap && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            // Match the title animation and repeat pause from 300x600.
+            const introTl = gsap.timeline({
+                defaults: { ease: "power3.out" },
+                repeat: 7,
+                repeatDelay: 2.5
             });
+
+            introTl.fromTo("#mainTitle",
+                { opacity: 0, y: 20 },
+                { opacity: 1, y: 0, duration: 1 }
+            );
         }
 
-        document.querySelector(".ads-container").addEventListener("click", function (event) {
+        document.querySelector(".link").addEventListener("click", (event) => {
             if (window.ExitApi && typeof window.ExitApi.exit === "function") {
                 event.preventDefault();
                 window.ExitApi.exit();
-            } else {
-                this.href = window.clickTag;
             }
         });
     </script>

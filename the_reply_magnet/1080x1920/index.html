@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ad.orientation" content="portrait">
+    <meta name="ad.size" content="width=1080,height=1920">
+    <meta name="google" content="notranslate">
+    <title>1080x1920 Banner - The Reply Magnet</title>
+
+    <!-- Required Google Ads clickTag definition -->
+    <script>
+        var clickTag = "https://gemini.google/id/students/?hl=id";
+    </script>
+
+    <!-- Official Google Ads Exit API Script -->
+    <script src="https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/TextPlugin.min.js"></script>
+
+    <style>
+        @font-face {
+            font-family: "Google Sans Flex";
+            src: url("assets/google-sans-flex.woff2") format("woff2");
+            font-weight: 100 1000;
+            font-style: normal;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Google Sans Flex", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .ads-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 150px 59px 0;
+            position: relative;
+            width: 1080px;
+            height: 1920px;
+            overflow: hidden;
+            background: linear-gradient(0deg, #15387A 0%, #121113 13%);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+        }
+
+        .logo {
+            flex-shrink: 0;
+            margin-bottom: 43px;
+            width: 400px;
+        }
+
+        .main-title {
+            flex-shrink: 0;
+            margin-bottom: 66.8px;
+            width: 960px;
+            font-variation-settings: "opsz" 144, "wdth" 37, "wght" 700, "GRAD" 37, "ROND" 0, "slnt" 0;
+            text-align: center;
+            font-size: 128px;
+            line-height: 0.95;
+        }
+
+        .main-title span {
+            display: block;
+            white-space: nowrap;
+        }
+
+        .line-blue, .text-blue-part { color: #027FFD; }
+        .line-white, .text-white-part { color: #fff; }
+
+        .prompt-box {
+            position: relative;
+            flex-shrink: 0;
+            margin-bottom: 58px;
+            width: 800px;
+        }
+
+        .prompt-box > img {
+            height: 100%;
+        }
+
+        .prompt-text-container {
+            position: absolute;
+            top: 127px;
+            left: 45px;
+            width: 718px;
+            font-size: 46px;
+            line-height: 1.2;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 5px;
+            height: 48px;
+            margin-left: 5px;
+            vertical-align: middle;
+            background: #027FFD;
+            animation: blink 0.8s 36;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .image-card {
+            flex-shrink: 0;
+            width: 770px;
+            height: 770px;
+            overflow: hidden;
+            border-radius: 70px;
+        }
+
+        .link {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .link:focus-visible {
+            outline: 5px solid #4285F4;
+            outline-offset: -6px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .cursor { animation: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="ads-container" aria-label="Google Gemini: Bikin wacana terlaksana">
+        <div class="logo">
+            <img src="assets/gemini-logo.png" alt="Google Gemini" width="400" height="57">
+        </div>
+
+        <div class="main-title" id="mainTitle">
+            <span class="line-blue">BIKIN WACANA</span>
+            <span class="line-white">TERLAKSANA</span>
+        </div>
+
+        <div class="prompt-box" id="promptBox" aria-hidden="true">
+            <img src="assets/prompt-box.png" alt="" width="600" height="288">
+            <div class="prompt-text-container">
+                <span class="text-blue-part" id="typedBlue">Bikin meme kucing, </span><span class="text-white-part" id="typedWhite">tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”</span><span class="cursor" id="cursor"></span>
+            </div>
+        </div>
+
+        <div class="image-card" id="imageCard">
+            <img src="assets/result-img.png" alt="Meme kucing berkacamata dengan ajakan bermain bola dan makan gorengan" id="mainImg" width="500" height="500">
+        </div>
+
+        <a class="link" href="https://gemini.google/id/students/?hl=id" target="_blank" rel="noopener noreferrer" aria-label="Coba Google Gemini"></a>
+    </div>
+
+    <script>
+        if (window.gsap && window.TextPlugin && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            gsap.registerPlugin(TextPlugin);
+
+            // 2.8 seconds of animation, then hold for 2.5 seconds.
+            const introTl = gsap.timeline({
+                defaults: { ease: "power3.out" },
+                repeat: 4,
+                repeatDelay: 2.5,
+                onComplete: () => gsap.set(".cursor", { animation: "none", opacity: 0 })
+            });
+
+            introTl
+                .set("#typedBlue, #typedWhite", { text: "" })
+                .set("#mainTitle", { opacity: 0, y: 20 })
+                .set("#promptBox", { autoAlpha: 0 })
+                .set("#imageCard", { autoAlpha: 0, y: 24 })
+                .to("#mainTitle", { opacity: 1, y: 0, duration: 1 })
+                .to("#promptBox", { autoAlpha: 1, duration: 0.3 })
+                .to("#typedBlue", { text: "Bikin meme kucing, ", duration: 0.5, ease: "none" })
+                .to("#typedWhite", { text: "tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”", duration: 0.5, ease: "none" })
+                .to("#imageCard", { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.2");
+        }
+
+        document.querySelector(".link").addEventListener("click", (event) => {
+            if (window.ExitApi && typeof window.ExitApi.exit === "function") {
+                event.preventDefault();
+                window.ExitApi.exit();
+            }
+        });
+    </script>
+</body>
+</html>

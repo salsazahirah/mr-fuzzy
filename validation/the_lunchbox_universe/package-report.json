@@ -1,0 +1,86 @@
+﻿[
+    {
+        "size":  "120x20",
+        "fileCount":  4,
+        "assetBytes":  419505,
+        "zipBytes":  372709,
+        "sha256":  "E0CF3AAAA92F04AB8FE69B0DC0C7CE719F9BE086700D656A99C2C5A5412FFBEA"
+    },
+    {
+        "size":  "160x600",
+        "fileCount":  7,
+        "assetBytes":  555105,
+        "zipBytes":  499477,
+        "sha256":  "8EC812E0A9C5A8D145801E40E77C279B7A59A6EF7A5E0B13CDF6EC6C9D842F84"
+    },
+    {
+        "size":  "168x28",
+        "fileCount":  4,
+        "assetBytes":  419518,
+        "zipBytes":  372719,
+        "sha256":  "29115F3AA7765136C58C6C99A7C9BF44FE301AF9B32E2CB1083C3447899CA87A"
+    },
+    {
+        "size":  "216x36",
+        "fileCount":  4,
+        "assetBytes":  419519,
+        "zipBytes":  372722,
+        "sha256":  "88A84DA9E0083E8BF20F50D25CA774A163FBEBB62C4FD076558F8F63C19DB01B"
+    },
+    {
+        "size":  "300x50",
+        "fileCount":  4,
+        "assetBytes":  419507,
+        "zipBytes":  372707,
+        "sha256":  "42C51CD0DEC30E3E36153A54299A5C8D1E024A0C4D935CC525210C5231E98B0B"
+    },
+    {
+        "size":  "300x250",
+        "fileCount":  7,
+        "assetBytes":  555233,
+        "zipBytes":  499466,
+        "sha256":  "99FAB6FB6CC548D7474C4A7E2AE381564C4FFD88FD66EEAAE8A6E3F1CE5DC947"
+    },
+    {
+        "size":  "300x1050",
+        "fileCount":  7,
+        "assetBytes":  555116,
+        "zipBytes":  499478,
+        "sha256":  "1BF53D46BA3E8E8754D8A7C7B697D85B52974C123C6D0B1CEB725016DCB3F0A6"
+    },
+    {
+        "size":  "320x50",
+        "fileCount":  4,
+        "assetBytes":  419524,
+        "zipBytes":  372715,
+        "sha256":  "15776BD1119BD761F6C07266042CABA94284BCC96A0F247B6CC7C22EBC3C61E8"
+    },
+    {
+        "size":  "728x90",
+        "fileCount":  4,
+        "assetBytes":  419440,
+        "zipBytes":  372686,
+        "sha256":  "F7C0E4072335E23C4CEA4178BB8802174783F9350E38DD605A4A226FD8C43959"
+    },
+    {
+        "size":  "970x90",
+        "fileCount":  7,
+        "assetBytes":  552542,
+        "zipBytes":  498935,
+        "sha256":  "486EC265B3CD29F881529B225AC434C4FDCC7AB6BEDD126FE18E57CE905F5C77"
+    },
+    {
+        "size":  "970x250",
+        "fileCount":  7,
+        "assetBytes":  555117,
+        "zipBytes":  499503,
+        "sha256":  "114B181FD17086F95507B266B7C73C2F0467669C3E86BA168D94862F51DA1287"
+    },
+    {
+        "size":  "1080x1920",
+        "fileCount":  7,
+        "assetBytes":  555130,
+        "zipBytes":  499505,
+        "sha256":  "FCA486EC580C6D8D707FF5256504069FAE4E1E090F8F2A7A488F1296618E12EA"
+    }
+]
