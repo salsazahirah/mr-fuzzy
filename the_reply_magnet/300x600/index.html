@@ -168,6 +168,7 @@
             .from("#promptBox", { opacity: 0, duration: 0.3})
             .to("#typedBlue", { text: "Bikin meme kucing, ", duration: 0.3, ease: "none" })
             .to("#typedWhite", { text: "tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”", duration: 1, ease: "none" })
+            .set("#cursor", { animation: "none", opacity: 1 })
             .fromTo("#imageCard", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.2");
             
         function playLoopAnimation() {
@@ -179,6 +180,7 @@
             });
                 
             loopTl
+                .set("#cursor", { animation: "blink 0.8s infinite", opacity: 1 })
                 .set("#typedBlue", { text: "" })
                 .set("#typedWhite", { text: "" })
                 .set("#imageCard", { autoAlpha: 0, y: 24 })
@@ -187,6 +189,7 @@
                 .fromTo("#promptBox", { opacity: 0 }, { opacity: 1, duration: 0.3 })
                 .to("#typedBlue", { text: "Bikin meme kucing, ", duration: 0.3, ease: "none" })
                 .to("#typedWhite", { text: "tulisannya: “Datang buat bola. Stay buat gorengan. Gas?”", duration: 1, ease: "none" })
+                .set("#cursor", { animation: "none", opacity: 1 })
                 .fromTo("#imageCard", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.2");
         }
 

@@ -174,6 +174,7 @@
             });
 
             introTl
+                .set(".cursor", { animation: "blink 0.8s infinite", opacity: 1 })
                 .set("#typedBlue, #typedWhite", { text: "" })
                 .set("#mainTitle", { opacity: 0, y: 20 })
                 .set("#promptBox", { autoAlpha: 0 })
@@ -182,6 +183,7 @@
                 .to("#promptBox", { autoAlpha: 1, duration: 0.3 })
                 .to("#typedBlue", { text: "Bikin kartu ulang tahun lucu buat bos, ", duration: 0.5, ease: "none" })
                 .to("#typedWhite", { text: "pakai kucing kacamata lagi cek sheet", duration: 0.5, ease: "none" })
+                .set(".cursor", { animation: "none", opacity: 1 })
                 .to("#imageCard", { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.2");
         }
 

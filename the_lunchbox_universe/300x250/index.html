@@ -165,7 +165,7 @@
 
             const timeline = gsap.timeline({
                 defaults: { ease: "power3.out" },
-                repeat: 4,
+                repeat: -1,
                 repeatDelay: 2.5,
                 onComplete: () => gsap.set(".cursor", { animation: "none", opacity: 0 })
             });
@@ -173,12 +173,14 @@
             timeline
                 .set("#mainTitle", { opacity: 0, y: 12 })
                 .set("#promptBox", { autoAlpha: 0 })
+                .set(".cursor", { animation: "blink 0.8s 36", opacity: 1 })
                 .set("#typedBlue, #typedWhite", { text: "" })
                 .set("#imageCard", { autoAlpha: 0, y: 24 })
                 .to("#mainTitle", { opacity: 1, y: 0, duration: 0.8 })
                 .to("#promptBox", { autoAlpha: 1, duration: 0.3 })
                 .to("#typedBlue", { text: "Visualisasikan 3 ide bekal ", duration: 0.5, ease: "none" })
                 .to("#typedWhite", { text: "nugget brokoli bertema dinosaurus", duration: 0.5, ease: "none" })
+                .set(".cursor", { animation: "none", opacity: 1 })
                 .to("#promptBox", { autoAlpha: 0, duration: 0.3 }, "+=1")
                 .fromTo("#imageCard", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.3 }, "<");
         }
