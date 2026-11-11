@@ -182,8 +182,8 @@
                 .to("#promptBox", { autoAlpha: 1, duration: 0.3 })
                 .to("#typedBlue", { text: "Visualisasikan 3 ide bekal ", duration: 0.5, ease: "none" })
                 .to("#typedWhite", { text: "nugget brokoli bertema dinosaurus", duration: 0.5, ease: "none" })
-                .set(".cursor", { animation: "none", opacity: 1 })
-                .to("#imageCard", { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.2");
+                .set(".cursor", { animation: "none", opacity: 0 }, "+=0.1")
+                .to("#imageCard", { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.1");
         }
 
         document.querySelector(".link").addEventListener("click", (event) => {

@@ -170,8 +170,8 @@
             .from("#promptBox", { opacity: 0, duration: 0.3})
             .to("#typedBlue", { text: "Kasih ide menu mengolah brokoli ", duration: 0.5, ease: "none" })
             .to("#typedWhite", { text: "yang disukai anak", duration: 0.5, ease: "none" })
-            .set("#cursor", { animation: "none", opacity: 1 })
-            .fromTo("#imageCard", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.2");
+            .set("#cursor", { animation: "none", opacity: 0 }, "+=0.1")
+            .fromTo("#imageCard", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.1");
             
         function playLoopAnimation() {
             const loopTl = gsap.timeline({
@@ -191,8 +191,8 @@
                 .fromTo("#promptBox", { opacity: 0 }, { opacity: 1, duration: 0.3 })
                 .to("#typedBlue", { text: "Kasih ide menu mengolah brokoli ", duration: 0.5, ease: "none" })
                 .to("#typedWhite", { text: "yang disukai anak", duration: 0.5, ease: "none" })
-                .set("#cursor", { animation: "none", opacity: 1 })
-                .fromTo("#imageCard", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.2");
+                .set("#cursor", { animation: "none", opacity: 0 }, "+=0.1")
+                .fromTo("#imageCard", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.1");
         }
 
         introTl.add(() => {
