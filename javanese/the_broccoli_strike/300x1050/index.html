@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ad.orientation" content="portrait">
+    <meta name="google" content="notranslate">
+    <title>300x1050 Banner - The Broccoli Strike</title>
+
+    <!-- Required Google Ads clickTag definition -->
+    <script>
+        var clickTag = "https://gemini.google/id/students/?hl=id";
+    </script>
+
+    <!-- Official Google Ads Exit API Script -->
+    <script src="https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/TextPlugin.min.js"></script>
+
+    <style>
+        @font-face {
+            font-family: "Google Sans Flex";
+            src: url("assets/google-sans-flex.woff2") format("woff2");
+            font-weight: 100 1000;
+            font-style: normal;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Google Sans Flex", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .ads-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 300px;
+            height: 1050px;
+            overflow: hidden;
+            background: linear-gradient(0deg, #15387A 0%, #121113 13%);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+        }
+
+        .logo {
+            flex-shrink: 0;
+            width: 165px;
+            margin-bottom: 56.5px;
+        }
+
+        .main-title {
+            flex-shrink: 0;
+            margin-bottom: 58px;
+            width: 250px;
+            font-variation-settings: "opsz" 144, "wdth" 37, "wght" 700, "GRAD" 37, "ROND" 0, "slnt" 0;
+            text-align: center;
+            font-size: 72px;
+            line-height: 1;
+        }
+
+        .main-title span {
+            display: block;
+            white-space: nowrap;
+        }
+
+        .line-blue, .text-blue-part { color: #027FFD; }
+        .line-white, .text-white-part { color: #fff; }
+
+        .prompt-box {
+            position: relative;
+            flex-shrink: 0;
+            margin-bottom: 20px;
+            width: 250px;
+        }
+
+        .prompt-text-container {
+            position: absolute;
+            top: 40px;
+            left: 14px;
+            width: 222px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 2px;
+            height: 14px;
+            margin-left: 2px;
+            vertical-align: middle;
+            background: #027FFD;
+            animation: blink 0.8s 36;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .image-card {
+            flex-shrink: 0;
+            width: 250px;
+            height: 250px;
+            overflow: hidden;
+            border-radius: 24px;
+        }
+
+        .link {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .link:focus-visible {
+            outline: 2px solid #4285F4;
+            outline-offset: -3px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .cursor { animation: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="ads-container" aria-label="Google Gemini: Menu biasa, dadi istimewa">
+        <div class="logo">
+            <img src="assets/gemini-logo.png" alt="Google Gemini" width="400" height="57" loading="lazy">
+        </div>
+
+        <div class="main-title" id="mainTitle">
+            <span class="line-blue">MENU</span>
+            <span class="line-blue">BIASA</span>
+            <span class="line-white">DADI</span>
+            <span class="line-white">ISTIMEWA</span>
+        </div>
+
+        <div class="prompt-box" id="promptBox" aria-hidden="true">
+            <img src="assets/prompt-box.png" alt="" width="600" height="288" loading="lazy">
+            <div class="prompt-text-container">
+                <span class="text-blue-part" id="typedBlue">Wenehi ide menu masak brokoli </span><span class="text-white-part" id="typedWhite">sing disenengi cah cilik</span><span class="cursor" id="cursor"></span>
+            </div>
+        </div>
+
+        <div class="image-card" id="imageCard">
+            <img src="assets/result-img.png" alt="Ide menu brokoli untuk anak dalam kotak bekal" id="mainImg" width="500" height="500" loading="lazy">
+        </div>
+
+        <a class="link" href="https://gemini.google/id/students/?hl=id" target="_blank" rel="noopener noreferrer" aria-label="Coba Google Gemini"></a>
+    </div>
+
+    <script>
+        if (window.gsap && window.TextPlugin && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            gsap.registerPlugin(TextPlugin);
+
+            // 2.8 seconds of animation, then hold for 2.5 seconds.
+            const introTl = gsap.timeline({
+                defaults: { ease: "power3.out" },
+                repeat: -1,
+                repeatDelay: 2.5,
+                onComplete: () => gsap.set(".cursor", { animation: "none", opacity: 0 })
+            });
+
+            introTl
+                .set(".cursor", { animation: "blink 0.8s 36", opacity: 1 })
+                .set("#typedBlue, #typedWhite", { text: "" })
+                .set("#mainTitle", { opacity: 0, y: 20 })
+                .set("#promptBox", { autoAlpha: 0 })
+                .set("#imageCard", { autoAlpha: 0, y: 24 })
+                .to("#mainTitle", { opacity: 1, y: 0, duration: 1 })
+                .to("#promptBox", { autoAlpha: 1, duration: 0.3 })
+                .to("#typedBlue", { text: "Wenehi ide menu masak brokoli ", duration: 0.5, ease: "none" })
+                .to("#typedWhite", { text: "sing disenengi cah cilik", duration: 0.5, ease: "none" })
+                .set(".cursor", { animation: "none", opacity: 0 }, "+=0.1")
+                .to("#imageCard", { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.1");
+        }
+
+        document.querySelector(".link").addEventListener("click", (event) => {
+            if (window.ExitApi && typeof window.ExitApi.exit === "function") {
+                event.preventDefault();
+                window.ExitApi.exit();
+            }
+        });
+    </script>
+</body>
+</html>

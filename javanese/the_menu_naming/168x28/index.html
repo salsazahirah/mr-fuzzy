@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ad.orientation" content="landscape">
+    <meta name="google" content="notranslate">
+    <title>168x28 Banner - The Reply Magnet</title>
+
+    <!-- Required Google Ads clickTag definition -->
+    <script>
+        var clickTag = "https://gemini.google/id/students/?hl=id";
+    </script>
+
+    <!-- Official Google Ads Exit API Script -->
+    <script src="https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"></script>
+    <script src="js/gsap.min.js"></script>
+
+    <style>
+        @font-face {
+            font-family: "Google Sans Flex";
+            src: url("assets/google-sans-flex.woff2") format("woff2");
+            font-weight: 100 1000;
+            font-style: normal;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Google Sans Flex", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .ads-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            position: relative;
+            width: 168px;
+            height: 28px;
+            overflow: hidden;
+            background: linear-gradient(0deg, #15387A 0%, #121113 45%);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+        }
+
+        .logo {
+            flex-shrink: 0;
+            width: 40px;
+        }
+
+        .main-title {
+            flex-shrink: 0;
+            width: 105px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+            white-space: nowrap;
+            font-variation-settings: "opsz" 144, "wdth" 37, "wght" 700, "GRAD" 37, "ROND" 0, "slnt" 0;
+            font-size: 11px;
+            line-height: 1;
+        }
+
+        .line-blue { color: #027FFD; }
+        .line-white { color: #fff; }
+
+        .link {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .link:focus-visible {
+            outline: 2px solid #4285F4;
+            outline-offset: -3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ads-container" aria-label="Google Gemini: Gawe ide oke jadi kece">
+        <div class="logo">
+            <img src="assets/gemini-logo.png" alt="Google Gemini" width="400" height="57" loading="lazy">
+        </div>
+
+        <div class="main-title" id="mainTitle">
+            <span class="line-blue">GAWE IDE OKE</span>
+            <span class="line-white">DADI KECE</span>
+        </div>
+
+        <a class="link" href="https://gemini.google/id/students/?hl=id" target="_blank" rel="noopener noreferrer" aria-label="Coba Google Gemini"></a>
+    </div>
+
+    <script>
+        if (window.gsap && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            // Match the title animation and repeat pause from 970x90.
+            const introTl = gsap.timeline({
+                defaults: { ease: "power3.out" },
+                repeat: -1,
+                repeatDelay: 2.5
+            });
+
+            introTl.fromTo("#mainTitle",
+                { opacity: 0, y: 20 },
+                { opacity: 1, y: 0, duration: 1 }
+            );
+        }
+
+        document.querySelector(".link").addEventListener("click", (event) => {
+            if (window.ExitApi && typeof window.ExitApi.exit === "function") {
+                event.preventDefault();
+                window.ExitApi.exit();
+            }
+        });
+    </script>
+</body>
+</html>
