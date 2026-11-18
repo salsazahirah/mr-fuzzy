@@ -172,11 +172,13 @@
             .set("#cursor", { animation: "none", opacity: 0 }, "+=0.1")
             .fromTo("#imageCard", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.1");
             
-        function playLoopAnimation() {
+        function playLoopAnimation(loop = 2) {
             const loopTl = gsap.timeline({
                 defaults: { ease: "power3.out" },
                 onComplete: () => {
-                    gsap.delayedCall(2.5, playLoopAnimation);
+                    if (loop < 3) {
+                        gsap.delayedCall(2.5, () => playLoopAnimation(loop + 1));
+                    }
                 }
             });
                 
