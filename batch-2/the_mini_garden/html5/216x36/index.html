@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ad.size" content="width=216,height=36">
+    <meta name="ad.orientation" content="landscape">
+    <meta name="google" content="notranslate">
+    <title>216x36</title>
+
+    <!-- Required Google Ads clickTag definition -->
+    <script>
+        var clickTag = "https://gemini.google/about/";
+    </script>
+
+    <style>
+        @font-face {
+            font-family: "Google Sans Flex";
+            src: url("assets/google-sans-flex.woff2") format("woff2");
+            font-weight: 100 1000;
+            font-style: normal;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Google Sans Flex", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .ads-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 216px;
+            height: 36px;
+            gap: 5px;
+            overflow: hidden;
+            background: linear-gradient(0deg, #15387A 0%, #121113 45%);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+        }
+
+        .logo {
+            flex-shrink: 0;
+            width: 56px;
+        }
+
+        .main-title {
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 2.7px;
+            white-space: nowrap;
+            font-variation-settings: "opsz" 144, "wdth" 37, "wght" 700, "GRAD" 37, "ROND" 0, "slnt" 0;
+            font-size: 10px;
+            line-height: 1;
+        }
+
+
+        /* Three entrances: 0-1s, 3.5-4.5s, and 7-8s. */
+        .main-title {
+            animation: title-enter 1s 0s forwards,
+                       title-enter 1s 3.5s forwards,
+                       title-enter 1s 7s forwards;
+            animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        @keyframes title-enter {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .main-title { animation: none; }
+        }
+
+        .line-blue { color: #027FFD; }
+        .line-white { color: #fff; }
+
+        .link {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .link:focus-visible {
+            outline: 2px solid #4285F4;
+            outline-offset: -3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ads-container" aria-label="Google Gemini: Spot kosong jadi sudut nongkrong">
+        <div class="logo">
+            <img src="assets/gemini-logo.png" alt="Google Gemini" width="400" height="57" loading="lazy">
+        </div>
+
+        <div class="main-title" id="mainTitle">
+            <span class="line-blue">SUDUT KOSONG</span>
+            <span class="line-white">JADI SPOT NONGKRONG</span>
+        </div>
+
+        <a class="link" href="javascript:window.open(window.clickTag)" rel="noopener noreferrer" aria-label="Coba Google Gemini"></a>
+    </div>
+
+</body>
+</html>
