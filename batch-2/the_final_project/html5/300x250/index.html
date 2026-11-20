@@ -149,8 +149,90 @@
             width: 240px;
             margin-top: 10px;
         }
-
+        .fluid-wave {
+            position: absolute;
+            width: 77px;
+            aspect-ratio: 1.7;
+            border-radius: 85px;
+            overflow: hidden;
+            background: #010207;
+            isolation: isolate;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        .fluid-wave::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom,
+                #000 0%, #000 28%, #010512 41%, #03133f 60%, #1141ae 84%, #1e67e9 100%);
+        }
+        .fluid-wave svg {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            overflow: hidden;
+        }
+        .fluid-wave .fw-front-track {
+            transform-box: fill-box;
+            animation: fw-slide-left 2.4s linear 12 forwards;
+            will-change: transform;
+        }
+        .fluid-wave .fw-back-track {
+            transform-box: fill-box;
+            animation: fw-slide-right 2.4s linear 12 forwards;
+            will-change: transform;
+        }
+        .fluid-wave .fw-front-bob {
+            animation: fw-bob-front 2.4s ease-in-out 12 forwards;
+        }
+        .fluid-wave .fw-back-bob {
+            animation: fw-bob-back 2.4s ease-in-out 12 forwards;
+        }
+        .fluid-wave .fw-breath {
+            animation: fw-breathe 2.4s ease-in-out 12 forwards;
+        }
+        .fluid-wave::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            background: linear-gradient(to bottom,
+                #000 0%, #000 19%, rgba(0,0,0,.97) 28%,
+                rgba(0,0,0,.75) 39%, rgba(0,0,0,.26) 55%, transparent 81%);
+        }
+        @keyframes fw-slide-left {
+            from { transform: translateX(0); }
+            to   { transform: translateX(-50%); }
+        }
+        @keyframes fw-slide-right {
+            from { transform: translateX(-50%); }
+            to   { transform: translateX(0); }
+        }
+        @keyframes fw-bob-front {
+            0%, 100% { transform: translateY(0); }
+            25%      { transform: translateY(-7px); }
+            65%      { transform: translateY(7px); }
+        }
+        @keyframes fw-bob-back {
+            0%, 100% { transform: translateY(0); }
+            35%      { transform: translateY(8px); }
+            78%      { transform: translateY(-7px); }
+        }
+        @keyframes fw-breathe {
+            0%,100% { opacity: .72; }
+            50%     { opacity: 1; }
+        }
         @media (prefers-reduced-motion: reduce) {
+            .fluid-wave .fw-front-track,
+            .fluid-wave .fw-back-track,
+            .fluid-wave .fw-front-bob,
+            .fluid-wave .fw-back-bob,
+            .fluid-wave .fw-breath { animation: none; }
             .cursor { animation: none; }
         }
         .link {
@@ -184,6 +266,50 @@
                 </div>
                 <div class="prompt-action" id="promptAction">
                     <img src="assets/action-btn.png" alt="">
+                </div>
+                <div class="fluid-wave" aria-hidden="true">
+                    <svg viewBox="0 0 360 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="fw2-back-fill" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0" stop-color="#3eaeff" stop-opacity=".65"/>
+                        <stop offset=".35" stop-color="#207aff" stop-opacity=".87"/>
+                        <stop offset="1" stop-color="#0c33b9" stop-opacity=".93"/>
+                        </linearGradient>
+                        <linearGradient id="fw2-front-fill" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0" stop-color="#77d9ff" stop-opacity=".92"/>
+                        <stop offset=".22" stop-color="#338dff" stop-opacity=".93"/>
+                        <stop offset=".7" stop-color="#1858e3" stop-opacity=".99"/>
+                        <stop offset="1" stop-color="#1240bd"/>
+                        </linearGradient>
+                        <filter id="fw2-haze" x="-8%" y="-30%" width="116%" height="160%">
+                        <feGaussianBlur stdDeviation="13"/>
+                        </filter>
+                        <filter id="fw2-top-gaussian" x="-15%" y="-75%" width="130%" height="250%" color-interpolation-filters="sRGB">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="6 40"/>
+                        </filter>
+                    </defs>
+                    <!-- One 360-unit period is repeated twice along each path. -->
+                    <g class="fw-back-bob">
+                        <g class="fw-back-track">
+                        <path d="M0 120 C60 84 120 84 180 120 C240 156 300 156 360 120 C420 84 480 84 540 120 C600 156 660 156 720 120 L720 240 L0 240 Z"
+                                fill="#1e66ff" opacity=".8" filter="url(#fw2-haze)"/>
+                        <path d="M0 120 C60 84 120 84 180 120 C240 156 300 156 360 120 C420 84 480 84 540 120 C600 156 660 156 720 120 L720 240 L0 240 Z"
+                                fill="url(#fw2-back-fill)" filter="url(#fw2-top-gaussian)"/>
+                        </g>
+                    </g>
+                    <g class="fw-front-bob">
+                        <g class="fw-front-track">
+                        <path d="M0 131 C60 83 120 83 180 131 C240 179 300 179 360 131 C420 83 480 83 540 131 C600 179 660 179 720 131 L720 240 L0 240 Z"
+                                fill="#288cff" opacity=".8" filter="url(#fw2-haze)"/>
+                        <path d="M0 131 C60 83 120 83 180 131 C240 179 300 179 360 131 C420 83 480 83 540 131 C600 179 660 179 720 131 L720 240 L0 240 Z"
+                                fill="url(#fw2-front-fill)" filter="url(#fw2-top-gaussian)"/>
+                        <g class="fw-breath">
+                            <path d="M0 131 C60 83 120 83 180 131 C240 179 300 179 360 131 C420 83 480 83 540 131 C600 179 660 179 720 131"
+                                fill="none" stroke="#7fd6ff" stroke-width="9" opacity=".72" filter="url(#fw2-haze)"/>
+                        </g>
+                        </g>
+                    </g>
+                    </svg>
                 </div>
             </div>
 
