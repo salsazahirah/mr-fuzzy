@@ -194,7 +194,6 @@
             display: block;
             overflow: hidden;
         }
-        /* Wave independen dari GSAP. 12 x 2.4s = 28.8s (di bawah batas DV360 30s). */
         .fluid-wave .fw-front-track {
             transform-box: fill-box;
             animation: fw-slide-left 2.4s linear 12 forwards;
@@ -295,10 +294,10 @@
                     <stop offset="1" stop-color="#1240bd"/>
                     </linearGradient>
                     <filter id="fw2-haze" x="-8%" y="-30%" width="116%" height="160%">
-                    <feGaussianBlur stdDeviation="10"/>
+                    <feGaussianBlur stdDeviation="13"/>
                     </filter>
-                    <filter id="fw2-soft" x="-5%" y="-25%" width="110%" height="150%">
-                    <feGaussianBlur stdDeviation="4.8"/>
+                    <filter id="fw2-top-gaussian" x="-15%" y="-75%" width="130%" height="250%" color-interpolation-filters="sRGB">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="6 40"/>
                     </filter>
                 </defs>
                 <!-- One 360-unit period is repeated twice along each path. -->
@@ -307,7 +306,7 @@
                     <path d="M0 120 C60 84 120 84 180 120 C240 156 300 156 360 120 C420 84 480 84 540 120 C600 156 660 156 720 120 L720 240 L0 240 Z"
                             fill="#1e66ff" opacity=".8" filter="url(#fw2-haze)"/>
                     <path d="M0 120 C60 84 120 84 180 120 C240 156 300 156 360 120 C420 84 480 84 540 120 C600 156 660 156 720 120 L720 240 L0 240 Z"
-                            fill="url(#fw2-back-fill)" filter="url(#fw2-soft)"/>
+                            fill="url(#fw2-back-fill)" filter="url(#fw2-top-gaussian)"/>
                     </g>
                 </g>
                 <g class="fw-front-bob">
@@ -315,7 +314,7 @@
                     <path d="M0 131 C60 83 120 83 180 131 C240 179 300 179 360 131 C420 83 480 83 540 131 C600 179 660 179 720 131 L720 240 L0 240 Z"
                             fill="#288cff" opacity=".8" filter="url(#fw2-haze)"/>
                     <path d="M0 131 C60 83 120 83 180 131 C240 179 300 179 360 131 C420 83 480 83 540 131 C600 179 660 179 720 131 L720 240 L0 240 Z"
-                            fill="url(#fw2-front-fill)" filter="url(#fw2-soft)"/>
+                            fill="url(#fw2-front-fill)" filter="url(#fw2-top-gaussian)"/>
                     <g class="fw-breath">
                         <path d="M0 131 C60 83 120 83 180 131 C240 179 300 179 360 131 C420 83 480 83 540 131 C600 179 660 179 720 131"
                             fill="none" stroke="#7fd6ff" stroke-width="9" opacity=".72" filter="url(#fw2-haze)"/>
