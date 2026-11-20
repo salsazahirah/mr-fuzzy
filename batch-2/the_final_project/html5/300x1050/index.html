@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ad.size" content="width=300,height=1050">
+    <meta name="ad.orientation" content="portrait">
+    <meta name="google" content="notranslate">
+    <title>300x1050</title>
+    <link rel="preload" href="assets/google-sans-flex.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Required Google Ads clickTag definition -->
+    <script>
+        var clickTag = "https://gemini.google/about/";
+    </script>
+
+    <script src="js/gsap.min.js"></script>
+    <script src="js/TextPlugin.min.js"></script>
+
+    <style>
+        @font-face {
+            font-family: "Google Sans Flex";
+            src: url("assets/google-sans-flex.woff2") format("woff2");
+            font-weight: 100 1000;
+            font-style: normal;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Google Sans Flex", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .ads-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 300px;
+            height: 1050px;
+            overflow: hidden;
+            background: url(assets/bg.jpg);
+            background-size: cover;
+            border: 1px solid rgba(255, 255, 255, 0.35);
+        }
+
+        .bg-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .logo {
+            flex-shrink: 0;
+            width: 165px;
+            position: relative;
+            margin-bottom: 56px;
+        }
+
+        .main-title {
+            flex-shrink: 0;
+            margin-bottom: 58px;
+            width: 250px;
+            font-variation-settings: "opsz" 144, "wdth" 37, "wght" 700, "GRAD" 37, "ROND" 0, "slnt" 0;
+            text-align: center;
+            font-size: 62px;
+            line-height: 1;
+        }
+
+        .main-title span {
+            display: block;
+            white-space: nowrap;
+        }
+
+        .line-blue, .text-blue-part { color: #027FFD; }
+        .line-white, .text-white-part { color: #fff; }
+
+        .prompt-box {
+            position: relative;
+            flex-shrink: 0;
+            margin: 20px 0;
+            width: 250px;
+            overflow: hidden;
+        }
+
+        .prompt-textbox {
+            width: 250px;
+            height: 70px;
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            background-color: #262829;
+        }
+
+        .prompt-text-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            font-size: 16px;
+            line-height: 1.3;
+            padding: 15px;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 2px;
+            height: 14px;
+            margin-left: 2px;
+            vertical-align: middle;
+            background: #027FFD;
+            animation: blink 0.8s 36;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .image-card {
+            flex-shrink: 0;
+            width: 250px;
+            height: 275px;
+            overflow: hidden;
+            border-radius: 24px;
+        }
+
+        .link {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .link:focus-visible {
+            outline: 2px solid #4285F4;
+            outline-offset: -3px;
+        }
+
+        .prompt-action {
+            width: 250px;
+            margin-top: 15px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .cursor { animation: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="ads-container" aria-label="Google Gemini: Bikin sketsa filter air ini jadi diagram 3D yang jelas">
+        <div class="bg-overlay" id="bgOverlay"></div>
+
+        <div class="logo">
+            <img src="assets/gemini-logo.png" alt="Google Gemini" width="400" height="57" loading="lazy">
+        </div>
+
+        <div class="main-title" id="mainTitle">
+            <span class="line-blue">SKETSA</span>
+            <span class="line-blue">BERANTAKAN</span>
+            <span class="line-white">JADI MUDAH</span>
+            <span class="line-white">DIJELASKAN</span>
+        </div>
+
+        <div class="image-card" id="imageCard">
+            <img src="assets/result-img.jpg" alt="Diagram filter air dari hasil sketsa" id="mainImg" width="500" height="500" loading="lazy">
+        </div>
+
+        <div class="prompt-box" id="promptBox" aria-hidden="true">
+            <div class="prompt-textbox">
+                <div class="prompt-text-container">
+                    <span class="text-white-part" id="typedIntro">Bikin </span><span class="text-blue-part" id="typedBlue">sketsa filter air</span><span class="text-white-part" id="typedMiddle"> ini jadi </span><span class="text-blue-part" id="typedGarden">diagram 3D</span><span class="text-white-part" id="typedWhite"> yang jelas.</span><span class="cursor" id="cursor"></span>
+                </div>
+            </div>
+            <div class="prompt-action" id="promptAction">
+                <img src="assets/action-btn.png" alt="">
+            </div>
+        </div>
+
+
+        <a class="link" href="javascript:window.open(window.clickTag)" rel="noopener noreferrer" aria-label="Coba Google Gemini"></a>
+    </div>
+
+    <script>
+        if (window.gsap && window.TextPlugin && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            gsap.registerPlugin(TextPlugin);
+
+            // 2.8 seconds of animation, then hold for 2.5 seconds.
+            const introTl = gsap.timeline({
+                defaults: { ease: "power3.out" },
+                repeat: 2,
+                repeatDelay: 2.5,
+                onComplete: () => gsap.set(".cursor", { animation: "none", opacity: 0 })
+            });
+
+            introTl
+                .set(".cursor", { animation: "blink 0.8s 36", opacity: 1 })
+                .set("#typedIntro, #typedBlue, #typedMiddle, #typedGarden, #typedWhite", { text: "" })
+                .set("#mainTitle", { opacity: 0, y: 20 })
+                .set("#promptBox", { autoAlpha: 0 })
+                .set("#imageCard", { autoAlpha: 0, y: 24 })
+                .set("#bgOverlay", { autoAlpha: 0 })
+                .to("#mainTitle", { opacity: 1, y: 0, duration: 1 })
+                .to("#promptBox", { autoAlpha: 1, duration: 0.3 })
+                .to("#typedIntro", { text: "Bikin ", duration: 0.1, ease: "none" })
+                .to("#typedBlue", { text: "sketsa filter air", duration: 0.15, ease: "none" })
+                .to("#typedMiddle", { text: " ini jadi ", duration: 0.15, ease: "none" })
+                .to("#typedGarden", { text: "diagram 3D", duration: 0.2, ease: "none" })
+                .to("#typedWhite", { text: " yang jelas.", duration: 0.4, ease: "none" })
+                .set(".cursor", { animation: "none", opacity: 0 }, "+=0.1")
+                .to("#imageCard", { autoAlpha: 1, y: 0, duration: 0.3 }, "+=0.1")
+                .to("#bgOverlay", { autoAlpha: 1, duration: 0.3 }, "<");
+        }
+
+    </script>
+</body>
+</html>
